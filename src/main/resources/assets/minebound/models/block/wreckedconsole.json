@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/wrecked_console",
+  "textures": {
+    "all": "minebound:blocks/wrecked_console",
+    "particle": "minebound:blocks/wrecked_console",
+    "0": "minebound:blocks/wrecked_console"
+  },
+  "render_type": "solid"
+}

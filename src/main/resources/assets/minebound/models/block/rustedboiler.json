@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/rusted_boiler",
+  "textures": {
+    "all": "minebound:blocks/rusted_boiler",
+    "particle": "minebound:blocks/rusted_boiler",
+    "0": "minebound:blocks/rusted_boiler"
+  },
+  "render_type": "solid"
+}

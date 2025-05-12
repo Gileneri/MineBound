@@ -1,0 +1,52 @@
+{
+  "_fv": 39,
+  "_type": "fluid",
+  "definition": {
+    "name": "Oil",
+    "bucketName": "Oil",
+    "textureStill": "tarliquid",
+    "textureFlowing": "tarliquid",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 5,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "CUSTOM:DrippingOil"
+    },
+    "flowStrength": 1.5,
+    "luminosity": 0,
+    "density": 5000,
+    "viscosity": 5000,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "oil_icon",
+    "creativeTab": {
+      "value": "CUSTOM:ItemsAndOres"
+    },
+    "emptySound": {
+      "value": "CUSTOM:silence"
+    },
+    "rarity": "COMMON",
+    "specialInfo": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a"
+    ],
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 10,
+    "emissiveRendering": false,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "BLACK",
+    "onEntityCollides": {
+      "name": "TarOilMobplayerCollidesBlock"
+    }
+  }
+}

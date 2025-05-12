@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/broken_counter",
+  "textures": {
+    "all": "minebound:blocks/broken_counter",
+    "particle": "minebound:blocks/broken_counter",
+    "1": "minebound:blocks/broken_counter"
+  },
+  "render_type": "solid"
+}

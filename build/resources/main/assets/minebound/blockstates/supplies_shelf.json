@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/supplies_shelf"
+    },
+    "facing=east": {
+      "model": "minebound:block/supplies_shelf",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/supplies_shelf",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/supplies_shelf",
+      "y": 270
+    }
+  }
+}

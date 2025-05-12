@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minebound:block/rustymetalplaqueslab"
+    },
+    "type=top": {
+      "model": "minebound:block/rustymetalplaqueslab_top"
+    },
+    "type=double": {
+      "model": "minebound:block/rustymetalplaqueslab_full"
+    }
+  }
+}

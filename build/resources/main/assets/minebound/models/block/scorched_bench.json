@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/scorched_bench",
+  "textures": {
+    "all": "minebound:blocks/scorched_bench",
+    "particle": "minebound:blocks/scorched_bench",
+    "0": "minebound:blocks/scorched_bench"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:ocean",
+  "features": "minebound:mud",
+  "step": "underground_ores"
+}

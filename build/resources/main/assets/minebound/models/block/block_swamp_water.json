@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minebound:blocks/swampwater",
+    "particle": "minebound:blocks/swampwater"
+  },
+  "render_type": "translucent"
+}

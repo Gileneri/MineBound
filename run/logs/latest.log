@@ -1,0 +1,291 @@
+[24Apr2025 20:49:52.690] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\Diego Kaujon\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.2.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[24Apr2025 20:49:52.694] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.5 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[24Apr2025 20:49:52.839] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Diego%20Kaujon/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23126!/ Service=ModLauncher Env=CLIENT
+[24Apr2025 20:49:53.108] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Diego Kaujon\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.2.0\5713dfd49576886a7ffc353f14f067ad42369592\javafmllanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[24Apr2025 20:49:53.113] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Diego Kaujon\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.2.0\51c88985dd125457fb8b6c2c58a4f3b9349a6b57\lowcodelanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[24Apr2025 20:49:53.117] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Diego Kaujon\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.2.0\f4fa83ef8129c7f7cc5847fbafb07f7ae86c1bb\mclanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[24Apr2025 20:49:53.123] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Diego Kaujon\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.2.0\d4dcb5b809b7f035ac22b058941cf81f84451545\fmlcore-1.19.2-43.2.0.jar is missing mods.toml file
+[24Apr2025 20:49:53.201] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[24Apr2025 20:49:55.946] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Diego Kaujon\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
+[24Apr2025 20:49:58.627] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[24Apr2025 20:49:59.838] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Diego%20Kaujon/MCreatorWorkspaces/Minebound_up_to_date/build/fg_cache/net/minecraftforge/forge/1.19.2-43.2.0_mapped_official_1.19.2/forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23188!/assets/.mcassetsroot' uses unexpected schema
+[24Apr2025 20:49:59.838] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Diego%20Kaujon/MCreatorWorkspaces/Minebound_up_to_date/build/fg_cache/net/minecraftforge/forge/1.19.2-43.2.0_mapped_official_1.19.2/forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23188!/data/.mcassetsroot' uses unexpected schema
+[24Apr2025 20:49:59.856] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[24Apr2025 20:49:59.861] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[24Apr2025 20:49:59.949] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[24Apr2025 20:50:00.302] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.2.0, for MC 1.19.2 with MCP 20220805.130853
+[24Apr2025 20:50:00.303] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.2.0 Initialized
+[24Apr2025 20:50:02.548] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[24Apr2025 20:50:02.852] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources, Dark Peachy Massacre
+[24Apr2025 20:50:03.269] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[24Apr2025 20:50:03.585] [Worker-Main-5/WARN] [net.minecraft.client.sounds.SoundManager/]: Invalid sounds.json in resourcepack: 'Dark Peachy Massacre'
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 21 column 5 path $..sounds[8]
+	at com.google.gson.internal.Streams.parse(Streams.java:60) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:65) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:187) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%23154!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:436) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:454) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
+	at net.minecraft.client.sounds.SoundManager.prepare(SoundManager.java:70) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
+	at net.minecraft.client.sounds.SoundManager.prepare(SoundManager.java:39) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$0(SimplePreparableReloadListener.java:10) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 21 column 5 path $..sounds[8]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1562) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:475) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:413) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:675) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:684) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.internal.Streams.parse(Streams.java:48) ~[gson-2.8.9.jar%23154!/:?]
+	... 16 more
+[24Apr2025 20:50:04.711] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.2.0 Target: 43.5.0
+[24Apr2025 20:50:08.216] [Worker-Main-8/ERROR] [net.minecraft.client.renderer.texture.TextureAtlas/]: Using missing texture, file minebound:textures/blocks/.png not found
+[24Apr2025 20:50:08.267] [Worker-Main-9/ERROR] [net.minecraft.client.renderer.texture.TextureAtlas/]: Using missing texture, file minebound:textures/items/oldnewspapericon.png not found
+[24Apr2025 20:50:08.387] [Worker-Main-14/WARN] [net.minecraft.client.renderer.texture.TextureAtlas/]: Texture minebound:blocks/base2 with size 30x11 limits mip level from 2 to 0
+[24Apr2025 20:50:09.915] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[24Apr2025 20:50:09.915] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[24Apr2025 20:50:09.947] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Alto-falantes (Realtek(R) Audio)
+[24Apr2025 20:50:09.948] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[24Apr2025 20:50:10.044] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x2 minecraft:textures/atlas/blocks.png-atlas
+[24Apr2025 20:50:10.049] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x2 minecraft:textures/atlas/signs.png-atlas
+[24Apr2025 20:50:10.049] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[24Apr2025 20:50:10.049] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[24Apr2025 20:50:10.049] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[24Apr2025 20:50:10.049] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[24Apr2025 20:50:10.050] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[24Apr2025 20:50:10.700] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[24Apr2025 20:50:10.809] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[24Apr2025 20:50:10.811] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[24Apr2025 20:50:10.811] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[24Apr2025 20:50:11.078] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[24Apr2025 20:50:22.372] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[24Apr2025 20:50:22.784] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
+[24Apr2025 20:50:23.159] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
+[24Apr2025 20:50:23.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[24Apr2025 20:50:23.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[24Apr2025 20:50:25.479] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Apr2025 20:50:25.505] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Apr2025 20:50:25.505] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Apr2025 20:50:25.505] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Apr2025 20:50:25.788] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Apr2025 20:50:26.274] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
+[24Apr2025 20:50:26.370] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[24Apr2025 20:50:26.389] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2626 ms
+[24Apr2025 20:50:26.461] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 15, from 10
+[24Apr2025 20:50:26.462] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[24Apr2025 20:50:26.566] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[24Apr2025 20:50:27.130] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[24Apr2025 20:50:27.178] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@728cc638
+[24Apr2025 20:50:27.194] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:259dd2a1] logged in with entity id 146 at (-161.90901684762858, 83.18152216775441, -323.4674853975185)
+[24Apr2025 20:50:27.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[24Apr2025 20:50:28.314] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 8 advancements
+[24Apr2025 20:52:00.722] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[24Apr2025 20:52:00.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[24Apr2025 20:52:00.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:lava_planet
+[24Apr2025 20:52:00.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:magma_planet
+[24Apr2025 20:52:00.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:grand_pagoda_library
+[24Apr2025 20:52:00.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:mutated_planet
+[24Apr2025 20:52:00.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:moon_dimension
+[24Apr2025 20:52:00.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:decayed_planet
+[24Apr2025 20:52:00.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:great_sovereign_temple
+[24Apr2025 20:52:00.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:temperate_moon
+[24Apr2025 20:52:00.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:test_dimension_to_play_around_with
+[24Apr2025 20:52:00.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:asteroid_field
+[24Apr2025 20:52:00.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:toxic_planet
+[24Apr2025 20:52:00.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:fiery_moon
+[24Apr2025 20:52:00.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:space
+[24Apr2025 20:52:00.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[24Apr2025 20:52:00.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:articplanet
+[24Apr2025 20:52:00.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:erchius_mining_facility
+[24Apr2025 20:52:00.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:arctic_planet
+[24Apr2025 20:52:00.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:volcanic_planet
+[24Apr2025 20:52:00.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:mountain_topper_dim
+[24Apr2025 20:52:00.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:gas_giant_planet
+[24Apr2025 20:52:00.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:barren_planet
+[24Apr2025 20:52:00.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:garden_planet
+[24Apr2025 20:52:00.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:ceremonial_hunting_caverns
+[24Apr2025 20:52:00.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:ancient_gateway
+[24Apr2025 20:52:00.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[24Apr2025 20:52:00.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:the_ruin
+[24Apr2025 20:52:00.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:gentle_moon
+[24Apr2025 20:52:00.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:dr_akaggy_space_missions
+[24Apr2025 20:52:00.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:player_space_station_dimension
+[24Apr2025 20:52:00.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:savannah_planet
+[24Apr2025 20:52:00.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:snow_planet
+[24Apr2025 20:52:00.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:player_ship_dimension
+[24Apr2025 20:52:00.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:desert_planet
+[24Apr2025 20:52:00.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:tundra_planet
+[24Apr2025 20:52:00.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:frozen_moon
+[24Apr2025 20:52:00.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:oceanic_planet
+[24Apr2025 20:52:00.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:earth
+[24Apr2025 20:52:00.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:penguin_weaponry_testing_site
+[24Apr2025 20:52:00.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:barons_keep
+[24Apr2025 20:52:00.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:radioactive_moon
+[24Apr2025 20:52:00.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:toxicoceanplanet
+[24Apr2025 20:52:00.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:the_outpost
+[24Apr2025 20:52:00.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:forest_planet
+[24Apr2025 20:52:00.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:jungle_planet
+[24Apr2025 20:52:00.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:midnight_planet
+[24Apr2025 20:52:00.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:ocean_planet
+[24Apr2025 20:52:00.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:miniknog_stronghold
+[24Apr2025 20:54:53.266] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[24Apr2025 20:54:53.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[24Apr2025 20:54:53.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:lava_planet
+[24Apr2025 20:54:53.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:magma_planet
+[24Apr2025 20:54:53.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:grand_pagoda_library
+[24Apr2025 20:54:53.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:mutated_planet
+[24Apr2025 20:54:53.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:moon_dimension
+[24Apr2025 20:54:53.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:decayed_planet
+[24Apr2025 20:54:53.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:great_sovereign_temple
+[24Apr2025 20:54:53.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:temperate_moon
+[24Apr2025 20:54:53.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:test_dimension_to_play_around_with
+[24Apr2025 20:54:53.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:asteroid_field
+[24Apr2025 20:54:53.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:toxic_planet
+[24Apr2025 20:54:53.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:fiery_moon
+[24Apr2025 20:54:53.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:space
+[24Apr2025 20:54:53.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[24Apr2025 20:54:53.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:articplanet
+[24Apr2025 20:54:53.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:erchius_mining_facility
+[24Apr2025 20:54:53.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:arctic_planet
+[24Apr2025 20:54:53.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:volcanic_planet
+[24Apr2025 20:54:53.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:mountain_topper_dim
+[24Apr2025 20:54:53.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:gas_giant_planet
+[24Apr2025 20:54:53.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:barren_planet
+[24Apr2025 20:54:53.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:garden_planet
+[24Apr2025 20:54:53.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:ceremonial_hunting_caverns
+[24Apr2025 20:54:53.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:ancient_gateway
+[24Apr2025 20:54:53.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[24Apr2025 20:54:53.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:the_ruin
+[24Apr2025 20:54:53.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:gentle_moon
+[24Apr2025 20:54:53.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:dr_akaggy_space_missions
+[24Apr2025 20:54:53.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:player_space_station_dimension
+[24Apr2025 20:54:53.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:savannah_planet
+[24Apr2025 20:54:53.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:snow_planet
+[24Apr2025 20:54:53.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:player_ship_dimension
+[24Apr2025 20:54:53.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:desert_planet
+[24Apr2025 20:54:53.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:tundra_planet
+[24Apr2025 20:54:53.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:frozen_moon
+[24Apr2025 20:54:53.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:oceanic_planet
+[24Apr2025 20:54:53.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:earth
+[24Apr2025 20:54:53.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:penguin_weaponry_testing_site
+[24Apr2025 20:54:53.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:barons_keep
+[24Apr2025 20:54:53.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:radioactive_moon
+[24Apr2025 20:54:53.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:toxicoceanplanet
+[24Apr2025 20:54:53.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:the_outpost
+[24Apr2025 20:54:53.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:forest_planet
+[24Apr2025 20:54:53.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:jungle_planet
+[24Apr2025 20:54:53.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:midnight_planet
+[24Apr2025 20:54:53.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:ocean_planet
+[24Apr2025 20:54:53.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:miniknog_stronghold
+[24Apr2025 20:54:55.287] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[24Apr2025 20:54:55.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[24Apr2025 20:54:55.294] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[24Apr2025 20:54:55.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[24Apr2025 20:54:55.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[24Apr2025 20:54:55.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[24Apr2025 20:54:57.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[24Apr2025 20:54:57.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:lava_planet
+[24Apr2025 20:54:57.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:magma_planet
+[24Apr2025 20:54:57.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:grand_pagoda_library
+[24Apr2025 20:54:57.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:mutated_planet
+[24Apr2025 20:54:57.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:moon_dimension
+[24Apr2025 20:54:57.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:decayed_planet
+[24Apr2025 20:54:57.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:great_sovereign_temple
+[24Apr2025 20:54:57.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:temperate_moon
+[24Apr2025 20:54:57.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:test_dimension_to_play_around_with
+[24Apr2025 20:54:57.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:asteroid_field
+[24Apr2025 20:54:57.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:toxic_planet
+[24Apr2025 20:54:57.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:fiery_moon
+[24Apr2025 20:54:57.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:space
+[24Apr2025 20:54:57.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[24Apr2025 20:54:57.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:articplanet
+[24Apr2025 20:54:57.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:erchius_mining_facility
+[24Apr2025 20:54:57.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:arctic_planet
+[24Apr2025 20:54:57.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:volcanic_planet
+[24Apr2025 20:54:57.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:mountain_topper_dim
+[24Apr2025 20:54:57.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:gas_giant_planet
+[24Apr2025 20:54:57.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:barren_planet
+[24Apr2025 20:54:57.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:garden_planet
+[24Apr2025 20:54:57.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:ceremonial_hunting_caverns
+[24Apr2025 20:54:57.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:ancient_gateway
+[24Apr2025 20:54:57.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[24Apr2025 20:54:57.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:the_ruin
+[24Apr2025 20:54:57.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:gentle_moon
+[24Apr2025 20:54:57.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:dr_akaggy_space_missions
+[24Apr2025 20:54:57.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:player_space_station_dimension
+[24Apr2025 20:54:57.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:savannah_planet
+[24Apr2025 20:54:57.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:snow_planet
+[24Apr2025 20:54:57.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:player_ship_dimension
+[24Apr2025 20:54:57.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:desert_planet
+[24Apr2025 20:54:57.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:tundra_planet
+[24Apr2025 20:54:57.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:frozen_moon
+[24Apr2025 20:54:57.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:oceanic_planet
+[24Apr2025 20:54:57.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:earth
+[24Apr2025 20:54:57.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:penguin_weaponry_testing_site
+[24Apr2025 20:54:57.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:barons_keep
+[24Apr2025 20:54:57.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:radioactive_moon
+[24Apr2025 20:54:57.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:toxicoceanplanet
+[24Apr2025 20:54:57.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:the_outpost
+[24Apr2025 20:54:57.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:forest_planet
+[24Apr2025 20:54:57.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:jungle_planet
+[24Apr2025 20:54:57.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:midnight_planet
+[24Apr2025 20:54:57.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:ocean_planet
+[24Apr2025 20:54:57.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minebound:miniknog_stronghold
+[24Apr2025 20:54:57.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[24Apr2025 20:54:57.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lava_planet): All chunks are saved
+[24Apr2025 20:54:57.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (magma_planet): All chunks are saved
+[24Apr2025 20:54:57.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (grand_pagoda_library): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mutated_planet): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon_dimension): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (decayed_planet): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (great_sovereign_temple): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (temperate_moon): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (test_dimension_to_play_around_with): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (asteroid_field): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (toxic_planet): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (fiery_moon): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (space): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (articplanet): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (erchius_mining_facility): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (arctic_planet): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (volcanic_planet): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mountain_topper_dim): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (gas_giant_planet): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (barren_planet): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (garden_planet): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (ceremonial_hunting_caverns): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (ancient_gateway): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_ruin): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (gentle_moon): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dr_akaggy_space_missions): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (player_space_station_dimension): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (savannah_planet): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (snow_planet): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (player_ship_dimension): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (desert_planet): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (tundra_planet): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (frozen_moon): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (oceanic_planet): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (earth): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (penguin_weaponry_testing_site): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (barons_keep): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (radioactive_moon): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (toxicoceanplanet): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_outpost): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (forest_planet): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (jungle_planet): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (midnight_planet): All chunks are saved
+[24Apr2025 20:54:57.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (ocean_planet): All chunks are saved
+[24Apr2025 20:54:57.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (miniknog_stronghold): All chunks are saved
+[24Apr2025 20:54:57.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[24Apr2025 20:54:59.201] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

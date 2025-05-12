@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/old_vending",
+  "textures": {
+    "all": "minebound:blocks/brokenvending",
+    "particle": "minebound:blocks/brokenvending",
+    "0": "minebound:blocks/brokenvending"
+  },
+  "render_type": "solid"
+}

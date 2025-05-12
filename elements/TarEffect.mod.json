@@ -1,0 +1,26 @@
+{
+  "_fv": 39,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Tar",
+    "icon": "status_tar_debuff.png",
+    "color": {
+      "value": -14672861,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "TarEffectStarts"
+    },
+    "onActiveTick": {
+      "name": "TarEffectOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "TarEffectExpires"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_fv": 39,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Slime",
+    "icon": "status_slime_debuff.png",
+    "color": {
+      "value": -13369498,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "SlimeEffectStarts"
+    },
+    "onActiveTick": {
+      "name": "SlimeOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "SlimeEffectExpires"
+    }
+  }
+}

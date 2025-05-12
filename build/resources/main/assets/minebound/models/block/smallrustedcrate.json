@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/small_rusted_crate",
+  "textures": {
+    "all": "minebound:blocks/smallrustycrate",
+    "particle": "minebound:blocks/smallrustycrate",
+    "0": "minebound:blocks/smallrustycrate"
+  },
+  "render_type": "solid"
+}

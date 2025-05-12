@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/poletop"
+    },
+    "facing=east": {
+      "model": "minebound:block/poletop",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/poletop",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/poletop",
+      "y": 270
+    }
+  }
+}

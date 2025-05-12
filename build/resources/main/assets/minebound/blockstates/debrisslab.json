@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minebound:block/debrisslab"
+    },
+    "type=top": {
+      "model": "minebound:block/debrisslab_top"
+    },
+    "type=double": {
+      "model": "minebound:block/debrisslab_full"
+    }
+  }
+}

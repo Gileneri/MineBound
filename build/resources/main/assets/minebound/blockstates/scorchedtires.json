@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/scorchedtires"
+    },
+    "facing=east": {
+      "model": "minebound:block/scorchedtires",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/scorchedtires",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/scorchedtires",
+      "y": 270
+    }
+  }
+}

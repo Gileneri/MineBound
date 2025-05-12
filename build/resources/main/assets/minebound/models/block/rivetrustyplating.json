@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/rustyplatingdown",
+    "up": "minebound:blocks/rustyplatingup",
+    "north": "minebound:blocks/rivetrustyplating",
+    "east": "minebound:blocks/rivetrustyplating",
+    "south": "minebound:blocks/rivetrustyplating",
+    "west": "minebound:blocks/rivetrustyplating",
+    "particle": "minebound:blocks/rustyplatingdown"
+  },
+  "render_type": "solid"
+}

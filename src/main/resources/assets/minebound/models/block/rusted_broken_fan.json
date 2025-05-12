@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/rusted_brokenvent",
+  "textures": {
+    "all": "minebound:blocks/rusted_brokenfan",
+    "particle": "minebound:blocks/rusted_brokenfan",
+    "0": "minebound:blocks/rusted_brokenfan"
+  },
+  "render_type": "solid"
+}

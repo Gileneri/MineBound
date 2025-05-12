@@ -1,0 +1,20 @@
+{
+  "_fv": 39,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGHEST",
+    "components": [],
+    "baseTexture": "lava_screen.png",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "LavaOverlayDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minebound:blocks/plant_matter_aegisalt1",
+    "particle": "minebound:blocks/plant_matter_aegisalt1"
+  },
+  "render_type": "solid"
+}

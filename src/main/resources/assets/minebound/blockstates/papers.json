@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/papers"
+    },
+    "facing=east": {
+      "model": "minebound:block/papers",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/papers",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/papers",
+      "y": 270
+    }
+  }
+}

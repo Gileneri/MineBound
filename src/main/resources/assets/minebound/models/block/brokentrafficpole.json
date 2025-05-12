@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/broken_traffic_pole",
+  "textures": {
+    "all": "minebound:blocks/broken_traffic_pole",
+    "particle": "minebound:blocks/broken_traffic_pole",
+    "0": "minebound:blocks/broken_traffic_pole"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minebound:depth_test_biome_2",
+    "minebound:depth_test_biome_6"
+  ],
+  "features": "minebound:generate_in_depth_2",
+  "step": "underground_ores"
+}

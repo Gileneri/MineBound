@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:decayed_biome",
+  "features": "minebound:pile_of_junk_1",
+  "step": "surface_structures"
+}

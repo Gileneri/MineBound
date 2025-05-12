@@ -1,0 +1,1434 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Blaststonecoal"
+      },
+      {
+        "value": "CUSTOM:Blaststonecopper"
+      },
+      {
+        "value": "CUSTOM:BlaststoneSilver"
+      },
+      {
+        "value": "CUSTOM:BlaststoneGold"
+      },
+      {
+        "value": "CUSTOM:BlaststoneDiamond"
+      },
+      {
+        "value": "CUSTOM:BlaststoneIron"
+      },
+      {
+        "value": "CUSTOM:BlaststoneTungsten"
+      },
+      {
+        "value": "CUSTOM:BlaststoneTitanium"
+      },
+      {
+        "value": "CUSTOM:BlaststoneDurasteel"
+      },
+      {
+        "value": "CUSTOM:BlaststoneAegisalt"
+      },
+      {
+        "value": "CUSTOM:BlaststoneFerozium"
+      },
+      {
+        "value": "CUSTOM:BlaststoneViolium"
+      },
+      {
+        "value": "CUSTOM:BlaststoneSolarium"
+      },
+      {
+        "value": "CUSTOM:BlaststoneCoreFragment"
+      },
+      {
+        "value": "CUSTOM:AlienRockcoal"
+      },
+      {
+        "value": "CUSTOM:Alienrockcopper"
+      },
+      {
+        "value": "CUSTOM:Alienrocksilver"
+      },
+      {
+        "value": "CUSTOM:Alienrockgold"
+      },
+      {
+        "value": "CUSTOM:Alienrockdiamond"
+      },
+      {
+        "value": "CUSTOM:Alienrocktitanium"
+      },
+      {
+        "value": "CUSTOM:Alienrockdurasteel"
+      },
+      {
+        "value": "CUSTOM:Alienrockaegisalt"
+      },
+      {
+        "value": "CUSTOM:Alienrockferozium"
+      },
+      {
+        "value": "CUSTOM:AlienRockViolium"
+      },
+      {
+        "value": "CUSTOM:Claycoal"
+      },
+      {
+        "value": "CUSTOM:Claycopper"
+      },
+      {
+        "value": "CUSTOM:Claysilver"
+      },
+      {
+        "value": "CUSTOM:Claygold"
+      },
+      {
+        "value": "CUSTOM:Claydiamond"
+      },
+      {
+        "value": "CUSTOM:Clayiron"
+      },
+      {
+        "value": "CUSTOM:Claytungsten"
+      },
+      {
+        "value": "CUSTOM:Claytitanium"
+      },
+      {
+        "value": "CUSTOM:Claydurasteel"
+      },
+      {
+        "value": "CUSTOM:Clayaegisalt"
+      },
+      {
+        "value": "CUSTOM:Clayferozium"
+      },
+      {
+        "value": "CUSTOM:Clayviolium"
+      },
+      {
+        "value": "CUSTOM:Claysolarium"
+      },
+      {
+        "value": "CUSTOM:Corruptdirtcoal"
+      },
+      {
+        "value": "CUSTOM:Corruptdirtcopper"
+      },
+      {
+        "value": "CUSTOM:Corruptdirtsilver"
+      },
+      {
+        "value": "CUSTOM:Corruptdirtgold"
+      },
+      {
+        "value": "CUSTOM:Corruptdirtdiamond"
+      },
+      {
+        "value": "CUSTOM:CorruptdirtIron"
+      },
+      {
+        "value": "CUSTOM:Corruptdirttungsten"
+      },
+      {
+        "value": "CUSTOM:Corruptdirttitanium"
+      },
+      {
+        "value": "CUSTOM:Corruptdirtdurasteel"
+      },
+      {
+        "value": "CUSTOM:Corruptdirtaegisalt"
+      },
+      {
+        "value": "CUSTOM:Corruptdirtferozium"
+      },
+      {
+        "value": "CUSTOM:Corruptdirtviolium"
+      },
+      {
+        "value": "CUSTOM:Corruptdirtsolarium"
+      },
+      {
+        "value": "CUSTOM:Direstonecoal"
+      },
+      {
+        "value": "CUSTOM:Direstonecopper"
+      },
+      {
+        "value": "CUSTOM:Direstonesilver"
+      },
+      {
+        "value": "CUSTOM:Direstonegold"
+      },
+      {
+        "value": "CUSTOM:Direstonediamond"
+      },
+      {
+        "value": "CUSTOM:Direstoneiron"
+      },
+      {
+        "value": "CUSTOM:Direstonetungsten"
+      },
+      {
+        "value": "CUSTOM:Direstonetitanium"
+      },
+      {
+        "value": "CUSTOM:Direstonedurasteel"
+      },
+      {
+        "value": "CUSTOM:Direstoneaegisalt"
+      },
+      {
+        "value": "CUSTOM:Direstoneferozium"
+      },
+      {
+        "value": "CUSTOM:Direstoneviolium"
+      },
+      {
+        "value": "CUSTOM:Direstonesolarium"
+      },
+      {
+        "value": "CUSTOM:Dirtcoal"
+      },
+      {
+        "value": "CUSTOM:Dirtcopper"
+      },
+      {
+        "value": "CUSTOM:Dirtsilver"
+      },
+      {
+        "value": "CUSTOM:Dirtgold"
+      },
+      {
+        "value": "CUSTOM:Dirtdiamond"
+      },
+      {
+        "value": "CUSTOM:Dirtiron"
+      },
+      {
+        "value": "CUSTOM:Dirttungsten"
+      },
+      {
+        "value": "CUSTOM:Dirttitanium"
+      },
+      {
+        "value": "CUSTOM:Dirtdurasteel"
+      },
+      {
+        "value": "CUSTOM:Dirtaegisalt"
+      },
+      {
+        "value": "CUSTOM:Dirtferozium"
+      },
+      {
+        "value": "CUSTOM:Dirtviolium"
+      },
+      {
+        "value": "CUSTOM:Dirtsolarium"
+      },
+      {
+        "value": "CUSTOM:Drydirtcoal"
+      },
+      {
+        "value": "CUSTOM:Drydirtcopper"
+      },
+      {
+        "value": "CUSTOM:Drydirtsilver"
+      },
+      {
+        "value": "CUSTOM:Drydirtgold"
+      },
+      {
+        "value": "CUSTOM:Drydirtdiamond"
+      },
+      {
+        "value": "CUSTOM:Drydirttitanium"
+      },
+      {
+        "value": "CUSTOM:Drydirtaegisalt"
+      },
+      {
+        "value": "CUSTOM:Drydirtferozium"
+      },
+      {
+        "value": "CUSTOM:Drydirtviolium"
+      },
+      {
+        "value": "CUSTOM:Drydirtsolarium"
+      },
+      {
+        "value": "CUSTOM:Drysandcoal"
+      },
+      {
+        "value": "CUSTOM:Drysandcopper"
+      },
+      {
+        "value": "CUSTOM:Drysandsilver"
+      },
+      {
+        "value": "CUSTOM:Drysandgold"
+      },
+      {
+        "value": "CUSTOM:Drysanddiamond"
+      },
+      {
+        "value": "CUSTOM:Drysandiron"
+      },
+      {
+        "value": "CUSTOM:Drysandtungsten"
+      },
+      {
+        "value": "CUSTOM:Drysandtitanium"
+      },
+      {
+        "value": "CUSTOM:Drysanddurasteel"
+      },
+      {
+        "value": "CUSTOM:Drysandaegisalt"
+      },
+      {
+        "value": "CUSTOM:Drysandferozium"
+      },
+      {
+        "value": "CUSTOM:Drysandviolium"
+      },
+      {
+        "value": "CUSTOM:Drysandsolarium"
+      },
+      {
+        "value": "CUSTOM:Fleshchunkcoal"
+      },
+      {
+        "value": "CUSTOM:Fleshchunkcopper"
+      },
+      {
+        "value": "CUSTOM:Fleshchunksilver"
+      },
+      {
+        "value": "CUSTOM:Fleshchunkgold"
+      },
+      {
+        "value": "CUSTOM:Fleshchunkdiamond"
+      },
+      {
+        "value": "CUSTOM:Fleshchunkiron"
+      },
+      {
+        "value": "CUSTOM:Fleshchunktungsten"
+      },
+      {
+        "value": "CUSTOM:Fleshchunktitanium"
+      },
+      {
+        "value": "CUSTOM:Fleshchunkdurasteel"
+      },
+      {
+        "value": "CUSTOM:Fleshchunkaegisalt"
+      },
+      {
+        "value": "CUSTOM:Fleshchunkferozium"
+      },
+      {
+        "value": "CUSTOM:Fleshchunkviolium"
+      },
+      {
+        "value": "CUSTOM:Fleshchunksolarium"
+      },
+      {
+        "value": "CUSTOM:Fleshpilecoal"
+      },
+      {
+        "value": "CUSTOM:Fleshpilecopper"
+      },
+      {
+        "value": "CUSTOM:Fleshpilesilver"
+      },
+      {
+        "value": "CUSTOM:Fleshpilegold"
+      },
+      {
+        "value": "CUSTOM:Fleshpilediamond"
+      },
+      {
+        "value": "CUSTOM:Fleshpileiron"
+      },
+      {
+        "value": "CUSTOM:Fleshpiletungsten"
+      },
+      {
+        "value": "CUSTOM:Fleshpiletitanium"
+      },
+      {
+        "value": "CUSTOM:Fleshpiledurasteel"
+      },
+      {
+        "value": "CUSTOM:Fleshpileaegisalt"
+      },
+      {
+        "value": "CUSTOM:Fleshpileferozium"
+      },
+      {
+        "value": "CUSTOM:Fleshpileviolium"
+      },
+      {
+        "value": "CUSTOM:Fleshpilesolarium"
+      },
+      {
+        "value": "CUSTOM:Frozendirtcoal"
+      },
+      {
+        "value": "CUSTOM:Frozendirtcopper"
+      },
+      {
+        "value": "CUSTOM:Frozendirtsilver"
+      },
+      {
+        "value": "CUSTOM:Frozendirtgold"
+      },
+      {
+        "value": "CUSTOM:Frozendirtdiamond"
+      },
+      {
+        "value": "CUSTOM:Frozendirtiron"
+      },
+      {
+        "value": "CUSTOM:Frozendirttungsten"
+      },
+      {
+        "value": "CUSTOM:Frozendirttitanium"
+      },
+      {
+        "value": "CUSTOM:Frozendirtdurasteel"
+      },
+      {
+        "value": "CUSTOM:Frozendirtaegisalt"
+      },
+      {
+        "value": "CUSTOM:Frozendirtferozium"
+      },
+      {
+        "value": "CUSTOM:Frozendirtviolium"
+      },
+      {
+        "value": "CUSTOM:Frozendirtsolarium"
+      },
+      {
+        "value": "CUSTOM:Geodestonecoal"
+      },
+      {
+        "value": "CUSTOM:Geodestonecopper"
+      },
+      {
+        "value": "CUSTOM:Geodestonesilver"
+      },
+      {
+        "value": "CUSTOM:Geodestonegold"
+      },
+      {
+        "value": "CUSTOM:Geodestonediamond"
+      },
+      {
+        "value": "CUSTOM:Geodestoneaegisalt"
+      },
+      {
+        "value": "CUSTOM:Geodestoneferozium"
+      },
+      {
+        "value": "CUSTOM:Geodestoneviolium"
+      },
+      {
+        "value": "CUSTOM:Geodestonesolarium"
+      },
+      {
+        "value": "CUSTOM:Graniterockcoal"
+      },
+      {
+        "value": "CUSTOM:Graniterockcopper"
+      },
+      {
+        "value": "CUSTOM:Graniterocksilver"
+      },
+      {
+        "value": "CUSTOM:Graniterockgold"
+      },
+      {
+        "value": "CUSTOM:Graniterockdiamond"
+      },
+      {
+        "value": "CUSTOM:Graniterockiron"
+      },
+      {
+        "value": "CUSTOM:Graniterocktungsten"
+      },
+      {
+        "value": "CUSTOM:Graniterocktitanium"
+      },
+      {
+        "value": "CUSTOM:Graniterockdurasteel"
+      },
+      {
+        "value": "CUSTOM:Graniterockaegisalt"
+      },
+      {
+        "value": "CUSTOM:Graniterockferozium"
+      },
+      {
+        "value": "CUSTOM:Graniterockviolium"
+      },
+      {
+        "value": "CUSTOM:Graniterocksolarium"
+      },
+      {
+        "value": "CUSTOM:Grassyrockcoal"
+      },
+      {
+        "value": "CUSTOM:Grassyrockcopper"
+      },
+      {
+        "value": "CUSTOM:Grassyrocksilver"
+      },
+      {
+        "value": "CUSTOM:Grassyrockgold"
+      },
+      {
+        "value": "CUSTOM:Grassyrockdiamond"
+      },
+      {
+        "value": "CUSTOM:Grassyrockiron"
+      },
+      {
+        "value": "CUSTOM:Grassyrocktungsten"
+      },
+      {
+        "value": "CUSTOM:Grassyrocktitanium"
+      },
+      {
+        "value": "CUSTOM:Grassyrockdurasteel"
+      },
+      {
+        "value": "CUSTOM:Grassyrockaegisalt"
+      },
+      {
+        "value": "CUSTOM:Grassyrockferozium"
+      },
+      {
+        "value": "CUSTOM:Grassyrockviolium"
+      },
+      {
+        "value": "CUSTOM:Grassyrocksolarium"
+      },
+      {
+        "value": "CUSTOM:Hivecoal"
+      },
+      {
+        "value": "CUSTOM:Hivecopper"
+      },
+      {
+        "value": "CUSTOM:Hivesilver"
+      },
+      {
+        "value": "CUSTOM:Hivegold"
+      },
+      {
+        "value": "CUSTOM:Hivediamond"
+      },
+      {
+        "value": "CUSTOM:Hivedurasteel"
+      },
+      {
+        "value": "CUSTOM:Hiveaegisalt"
+      },
+      {
+        "value": "CUSTOM:Hiveferozium"
+      },
+      {
+        "value": "CUSTOM:Hiveviolium"
+      },
+      {
+        "value": "CUSTOM:Hivesolarium"
+      },
+      {
+        "value": "CUSTOM:Icecoal"
+      },
+      {
+        "value": "CUSTOM:Icecopper"
+      },
+      {
+        "value": "CUSTOM:Icesilver"
+      },
+      {
+        "value": "CUSTOM:Icegold"
+      },
+      {
+        "value": "CUSTOM:Icediamond"
+      },
+      {
+        "value": "CUSTOM:Iceiron"
+      },
+      {
+        "value": "CUSTOM:Icetungsten"
+      },
+      {
+        "value": "CUSTOM:Icetitanium"
+      },
+      {
+        "value": "CUSTOM:Icedurasteel"
+      },
+      {
+        "value": "CUSTOM:Iceaegisalt"
+      },
+      {
+        "value": "CUSTOM:Iceferozium"
+      },
+      {
+        "value": "CUSTOM:Iceviolium"
+      },
+      {
+        "value": "CUSTOM:Icesolarium"
+      },
+      {
+        "value": "CUSTOM:Magmarockcoal"
+      },
+      {
+        "value": "CUSTOM:Magmarockcopper"
+      },
+      {
+        "value": "CUSTOM:Magmarocksilver"
+      },
+      {
+        "value": "CUSTOM:Magmarockgold"
+      },
+      {
+        "value": "CUSTOM:Magmarockdiamond"
+      },
+      {
+        "value": "CUSTOM:Magmarockiron"
+      },
+      {
+        "value": "CUSTOM:Magmarocktungsten"
+      },
+      {
+        "value": "CUSTOM:Magmarocktitanium"
+      },
+      {
+        "value": "CUSTOM:Magmarockdurasteel"
+      },
+      {
+        "value": "CUSTOM:Magmarockaegisalt"
+      },
+      {
+        "value": "CUSTOM:Magmarockferozium"
+      },
+      {
+        "value": "CUSTOM:Magmarockviolium"
+      },
+      {
+        "value": "CUSTOM:Magmarocksolarium"
+      },
+      {
+        "value": "CUSTOM:Magmarockcorefragment"
+      },
+      {
+        "value": "CUSTOM:Meteoriterockcopper"
+      },
+      {
+        "value": "CUSTOM:Meteoriterocksilver"
+      },
+      {
+        "value": "CUSTOM:Meteoriterockgold"
+      },
+      {
+        "value": "CUSTOM:Moondusterchiuscrystalfuel"
+      },
+      {
+        "value": "CUSTOM:Moonrockerchiuscrystalfuel"
+      },
+      {
+        "value": "CUSTOM:Moonstoneerchiuscrystalfuel"
+      },
+      {
+        "value": "CUSTOM:Mudcoal"
+      },
+      {
+        "value": "CUSTOM:Mudcopper"
+      },
+      {
+        "value": "CUSTOM:Mudsilver"
+      },
+      {
+        "value": "CUSTOM:Mudgold"
+      },
+      {
+        "value": "CUSTOM:Muddiamond"
+      },
+      {
+        "value": "CUSTOM:Mudiron"
+      },
+      {
+        "value": "CUSTOM:Mudtungsten"
+      },
+      {
+        "value": "CUSTOM:Mudtitanium"
+      },
+      {
+        "value": "CUSTOM:Muddurasteel"
+      },
+      {
+        "value": "CUSTOM:Mudaegisalt"
+      },
+      {
+        "value": "CUSTOM:Mudferozium"
+      },
+      {
+        "value": "CUSTOM:Mudviolium"
+      },
+      {
+        "value": "CUSTOM:Mudsolarium"
+      },
+      {
+        "value": "CUSTOM:Obsidiancoal"
+      },
+      {
+        "value": "CUSTOM:Obsidiancopper"
+      },
+      {
+        "value": "CUSTOM:Obsidiansilver"
+      },
+      {
+        "value": "CUSTOM:Obsidiangold"
+      },
+      {
+        "value": "CUSTOM:Obsidiandiamond"
+      },
+      {
+        "value": "CUSTOM:Obsidianiron"
+      },
+      {
+        "value": "CUSTOM:Obsidiantungsten"
+      },
+      {
+        "value": "CUSTOM:Obsidiantitanium"
+      },
+      {
+        "value": "CUSTOM:Obsidiandurasteel"
+      },
+      {
+        "value": "CUSTOM:Obsidianaegisalt"
+      },
+      {
+        "value": "CUSTOM:Obsidianferozium"
+      },
+      {
+        "value": "CUSTOM:Obsidianviolium"
+      },
+      {
+        "value": "CUSTOM:Obsidiansolarium"
+      },
+      {
+        "value": "CUSTOM:Obsidiancorefragment"
+      },
+      {
+        "value": "CUSTOM:Plantmattercoal"
+      },
+      {
+        "value": "CUSTOM:Plantmattercopper"
+      },
+      {
+        "value": "CUSTOM:Plantmattersilver"
+      },
+      {
+        "value": "CUSTOM:Plantmattergold"
+      },
+      {
+        "value": "CUSTOM:Plantmatterdiamond"
+      },
+      {
+        "value": "CUSTOM:Plantmatteriron"
+      },
+      {
+        "value": "CUSTOM:Plantmattertungsten"
+      },
+      {
+        "value": "CUSTOM:Plantmattertitanium"
+      },
+      {
+        "value": "CUSTOM:Plantmatterdurasteel"
+      },
+      {
+        "value": "CUSTOM:Plantmatteraegisalt"
+      },
+      {
+        "value": "CUSTOM:Plantmatterferozium"
+      },
+      {
+        "value": "CUSTOM:Plantmatterviolium"
+      },
+      {
+        "value": "CUSTOM:Plantmattersolarium"
+      },
+      {
+        "value": "CUSTOM:Sandstonecoal"
+      },
+      {
+        "value": "CUSTOM:Sandstonecopper"
+      },
+      {
+        "value": "CUSTOM:Sandstonesilver"
+      },
+      {
+        "value": "CUSTOM:Sandstonegold"
+      },
+      {
+        "value": "CUSTOM:Sandstonediamond"
+      },
+      {
+        "value": "CUSTOM:Sandstoneiron"
+      },
+      {
+        "value": "CUSTOM:Sandstonetungsten"
+      },
+      {
+        "value": "CUSTOM:Sandstonetitanium"
+      },
+      {
+        "value": "CUSTOM:Sandstonedurasteel"
+      },
+      {
+        "value": "CUSTOM:Sandstoneaegisalt"
+      },
+      {
+        "value": "CUSTOM:Sandstoneferozium"
+      },
+      {
+        "value": "CUSTOM:Sandstoneviolium"
+      },
+      {
+        "value": "CUSTOM:Sandstonesolarium"
+      },
+      {
+        "value": "CUSTOM:Sandcoal"
+      },
+      {
+        "value": "CUSTOM:Sandcopper"
+      },
+      {
+        "value": "CUSTOM:Sandsilver"
+      },
+      {
+        "value": "CUSTOM:Sandgold"
+      },
+      {
+        "value": "CUSTOM:Sanddiamond"
+      },
+      {
+        "value": "CUSTOM:Sandiron"
+      },
+      {
+        "value": "CUSTOM:Sandtungsten"
+      },
+      {
+        "value": "CUSTOM:Sandtitanium"
+      },
+      {
+        "value": "CUSTOM:Sanddurasteel"
+      },
+      {
+        "value": "CUSTOM:Sandaegisalt"
+      },
+      {
+        "value": "CUSTOM:Sandferozium"
+      },
+      {
+        "value": "CUSTOM:Sandviolium"
+      },
+      {
+        "value": "CUSTOM:Sandsolarium"
+      },
+      {
+        "value": "CUSTOM:Cobblestonecoal"
+      },
+      {
+        "value": "CUSTOM:Cobblestonecopper"
+      },
+      {
+        "value": "CUSTOM:Cobblestonesilver"
+      },
+      {
+        "value": "CUSTOM:Cobblestonegold"
+      },
+      {
+        "value": "CUSTOM:Cobblestonediamond"
+      },
+      {
+        "value": "CUSTOM:Cobblestoneiron"
+      },
+      {
+        "value": "CUSTOM:Cobblestonetungsten"
+      },
+      {
+        "value": "CUSTOM:Cobblestonetitanium"
+      },
+      {
+        "value": "CUSTOM:Cobblestonedurasteel"
+      },
+      {
+        "value": "CUSTOM:Cobblestoneaegisalt"
+      },
+      {
+        "value": "CUSTOM:Cobblestoneferozium"
+      },
+      {
+        "value": "CUSTOM:Cobblestoneviolium"
+      },
+      {
+        "value": "CUSTOM:Cobblestonesolarium"
+      },
+      {
+        "value": "CUSTOM:Cobblestonecorefragment"
+      },
+      {
+        "value": "CUSTOM:Smoothicecoal"
+      },
+      {
+        "value": "CUSTOM:Smoothicecopper"
+      },
+      {
+        "value": "CUSTOM:Smoothicesilver"
+      },
+      {
+        "value": "CUSTOM:Smoothicegold"
+      },
+      {
+        "value": "CUSTOM:Smoothicediamond"
+      },
+      {
+        "value": "CUSTOM:Smoothiceiron"
+      },
+      {
+        "value": "CUSTOM:Smoothicetungsten"
+      },
+      {
+        "value": "CUSTOM:Smoothicetitanium"
+      },
+      {
+        "value": "CUSTOM:Smoothicedurasteel"
+      },
+      {
+        "value": "CUSTOM:Smoothiceaegisalt"
+      },
+      {
+        "value": "CUSTOM:Smoothiceferozium"
+      },
+      {
+        "value": "CUSTOM:Smoothiceviolium"
+      },
+      {
+        "value": "CUSTOM:Smoothicesolarium"
+      },
+      {
+        "value": "CUSTOM:Smoothiceprismshard"
+      },
+      {
+        "value": "CUSTOM:Tarcoal"
+      },
+      {
+        "value": "CUSTOM:Tarcopper"
+      },
+      {
+        "value": "CUSTOM:Tarsilver"
+      },
+      {
+        "value": "CUSTOM:Targold"
+      },
+      {
+        "value": "CUSTOM:Tardiamond"
+      },
+      {
+        "value": "CUSTOM:Tariron"
+      },
+      {
+        "value": "CUSTOM:Tartungsten"
+      },
+      {
+        "value": "CUSTOM:Tartitanium"
+      },
+      {
+        "value": "CUSTOM:Tardurasteel"
+      },
+      {
+        "value": "CUSTOM:Taraegisalt"
+      },
+      {
+        "value": "CUSTOM:Tarferozium"
+      },
+      {
+        "value": "CUSTOM:Tarviolium"
+      },
+      {
+        "value": "CUSTOM:Tarsolarium"
+      },
+      {
+        "value": "CUSTOM:Snowcoal"
+      },
+      {
+        "value": "CUSTOM:Snowcopper"
+      },
+      {
+        "value": "CUSTOM:Snowsilver"
+      },
+      {
+        "value": "CUSTOM:Snowgold"
+      },
+      {
+        "value": "CUSTOM:Snowdiamond"
+      },
+      {
+        "value": "CUSTOM:Snowiron"
+      },
+      {
+        "value": "CUSTOM:Snowtungsten"
+      },
+      {
+        "value": "CUSTOM:Snowtitanium"
+      },
+      {
+        "value": "CUSTOM:Snowdurasteel"
+      },
+      {
+        "value": "CUSTOM:Snowaegisalt"
+      },
+      {
+        "value": "CUSTOM:Snowferozium"
+      },
+      {
+        "value": "CUSTOM:Snowviolium"
+      },
+      {
+        "value": "CUSTOM:Snowsolarium"
+      },
+      {
+        "value": "CUSTOM:Snowprismshard"
+      },
+      {
+        "value": "CUSTOM:Andesitecoal"
+      },
+      {
+        "value": "CUSTOM:Andesitecopper"
+      },
+      {
+        "value": "CUSTOM:AndesiteSilver"
+      },
+      {
+        "value": "CUSTOM:Andesitegold"
+      },
+      {
+        "value": "CUSTOM:Andesitediamond"
+      },
+      {
+        "value": "CUSTOM:Andesiteiron"
+      },
+      {
+        "value": "CUSTOM:Andesitetungsten"
+      },
+      {
+        "value": "CUSTOM:Andesitetitanium"
+      },
+      {
+        "value": "CUSTOM:Andesitedurasteel"
+      },
+      {
+        "value": "CUSTOM:Andesiteaegisalt"
+      },
+      {
+        "value": "CUSTOM:Andesiteferozium"
+      },
+      {
+        "value": "CUSTOM:Andesiteviolium"
+      },
+      {
+        "value": "CUSTOM:Andesitesolarium"
+      },
+      {
+        "value": "CUSTOM:Arkosecoal"
+      },
+      {
+        "value": "CUSTOM:Arkosecopper"
+      },
+      {
+        "value": "CUSTOM:Arkosesilver"
+      },
+      {
+        "value": "CUSTOM:Arkosegold"
+      },
+      {
+        "value": "CUSTOM:Arkosediamond"
+      },
+      {
+        "value": "CUSTOM:Arkoseiron"
+      },
+      {
+        "value": "CUSTOM:Arkosetungsten"
+      },
+      {
+        "value": "CUSTOM:Arkosetitanium"
+      },
+      {
+        "value": "CUSTOM:Arkosedurasteel"
+      },
+      {
+        "value": "CUSTOM:Arkoseaegisalt"
+      },
+      {
+        "value": "CUSTOM:Arkoseferozium"
+      },
+      {
+        "value": "CUSTOM:Arkoseviolium"
+      },
+      {
+        "value": "CUSTOM:Arkosesolarium"
+      },
+      {
+        "value": "CUSTOM:Chertcoal"
+      },
+      {
+        "value": "CUSTOM:Chertcopper"
+      },
+      {
+        "value": "CUSTOM:Chertsilver"
+      },
+      {
+        "value": "CUSTOM:Chertgold"
+      },
+      {
+        "value": "CUSTOM:Chertdiamond"
+      },
+      {
+        "value": "CUSTOM:Chertiron"
+      },
+      {
+        "value": "CUSTOM:Cherttungsten"
+      },
+      {
+        "value": "CUSTOM:Cherttitanium"
+      },
+      {
+        "value": "CUSTOM:Chertdurasteel"
+      },
+      {
+        "value": "CUSTOM:Chertaegisalt"
+      },
+      {
+        "value": "CUSTOM:Chertferozium"
+      },
+      {
+        "value": "CUSTOM:Chertviolium"
+      },
+      {
+        "value": "CUSTOM:Chertsolarium"
+      },
+      {
+        "value": "CUSTOM:Chertcorefragment"
+      },
+      {
+        "value": "CUSTOM:Conglomeratecoal"
+      },
+      {
+        "value": "CUSTOM:Conglomeratecopper"
+      },
+      {
+        "value": "CUSTOM:Conglomeratesilver"
+      },
+      {
+        "value": "CUSTOM:Conglomerategold"
+      },
+      {
+        "value": "CUSTOM:Conglomeratediamond"
+      },
+      {
+        "value": "CUSTOM:Conglomerateiron"
+      },
+      {
+        "value": "CUSTOM:Conglomeratetungsten"
+      },
+      {
+        "value": "CUSTOM:Conglomeratetitanium"
+      },
+      {
+        "value": "CUSTOM:Conglomeratedurasteel"
+      },
+      {
+        "value": "CUSTOM:Conglomerateaegisalt"
+      },
+      {
+        "value": "CUSTOM:Conglomerateferozium"
+      },
+      {
+        "value": "CUSTOM:Conglomerateviolium"
+      },
+      {
+        "value": "CUSTOM:Conglomeratesolarium"
+      },
+      {
+        "value": "CUSTOM:Conglomeratecorefragment"
+      },
+      {
+        "value": "CUSTOM:Dacitecoal"
+      },
+      {
+        "value": "CUSTOM:Dacitecopper"
+      },
+      {
+        "value": "CUSTOM:Dacitesilver"
+      },
+      {
+        "value": "CUSTOM:Dacitegold"
+      },
+      {
+        "value": "CUSTOM:Dacitediamond"
+      },
+      {
+        "value": "CUSTOM:Daciteiron"
+      },
+      {
+        "value": "CUSTOM:Dacitetungsten"
+      },
+      {
+        "value": "CUSTOM:Dacitetitanium"
+      },
+      {
+        "value": "CUSTOM:Dacitedurasteel"
+      },
+      {
+        "value": "CUSTOM:Daciteaegisalt"
+      },
+      {
+        "value": "CUSTOM:Daciteferozium"
+      },
+      {
+        "value": "CUSTOM:Daciteviolium"
+      },
+      {
+        "value": "CUSTOM:Dacitesolarium"
+      },
+      {
+        "value": "CUSTOM:Gneisscoal"
+      },
+      {
+        "value": "CUSTOM:Gneisscopper"
+      },
+      {
+        "value": "CUSTOM:Gneisssilver"
+      },
+      {
+        "value": "CUSTOM:Gneissgold"
+      },
+      {
+        "value": "CUSTOM:Gneissdiamond"
+      },
+      {
+        "value": "CUSTOM:Gneissiron"
+      },
+      {
+        "value": "CUSTOM:Gneisstungsten"
+      },
+      {
+        "value": "CUSTOM:Gneisstitanium"
+      },
+      {
+        "value": "CUSTOM:Gneissdurasteel"
+      },
+      {
+        "value": "CUSTOM:Gneissaegisalt"
+      },
+      {
+        "value": "CUSTOM:Gneissferozium"
+      },
+      {
+        "value": "CUSTOM:Gneissviolium"
+      },
+      {
+        "value": "CUSTOM:Gneisssolarium"
+      },
+      {
+        "value": "CUSTOM:Gneisscorefragment"
+      },
+      {
+        "value": "CUSTOM:Gritstonecoal"
+      },
+      {
+        "value": "CUSTOM:Gritstonecopper"
+      },
+      {
+        "value": "CUSTOM:Gritstonesilver"
+      },
+      {
+        "value": "CUSTOM:Gritstonegold"
+      },
+      {
+        "value": "CUSTOM:Gritstonediamond"
+      },
+      {
+        "value": "CUSTOM:Gritstoneiron"
+      },
+      {
+        "value": "CUSTOM:Gritstonetungsten"
+      },
+      {
+        "value": "CUSTOM:Gritstonetitanium"
+      },
+      {
+        "value": "CUSTOM:Gritstonedurasteel"
+      },
+      {
+        "value": "CUSTOM:Gritstoneaegisalt"
+      },
+      {
+        "value": "CUSTOM:Gritstoneferozium"
+      },
+      {
+        "value": "CUSTOM:Gritstoneviolium"
+      },
+      {
+        "value": "CUSTOM:Gritstonesolarium"
+      },
+      {
+        "value": "CUSTOM:Gritstonecorefragment"
+      },
+      {
+        "value": "CUSTOM:Limestonecoal"
+      },
+      {
+        "value": "CUSTOM:Limestonecopper"
+      },
+      {
+        "value": "CUSTOM:Limestonesilver"
+      },
+      {
+        "value": "CUSTOM:Limestonegold"
+      },
+      {
+        "value": "CUSTOM:Limestonediamond"
+      },
+      {
+        "value": "CUSTOM:Limestoneiron"
+      },
+      {
+        "value": "CUSTOM:Limestonetungsten"
+      },
+      {
+        "value": "CUSTOM:Limestonetitanium"
+      },
+      {
+        "value": "CUSTOM:Limestonedurasteel"
+      },
+      {
+        "value": "CUSTOM:Limestoneaegisalt"
+      },
+      {
+        "value": "CUSTOM:Limestoneferozium"
+      },
+      {
+        "value": "CUSTOM:Limestoneviolium"
+      },
+      {
+        "value": "CUSTOM:Limestonesolarium"
+      },
+      {
+        "value": "CUSTOM:Limestonecorefragment"
+      },
+      {
+        "value": "CUSTOM:Mudstonecoal"
+      },
+      {
+        "value": "CUSTOM:Mudstonecopper"
+      },
+      {
+        "value": "CUSTOM:Mudstonesilver"
+      },
+      {
+        "value": "CUSTOM:Mudstonegold"
+      },
+      {
+        "value": "CUSTOM:Mudstonediamond"
+      },
+      {
+        "value": "CUSTOM:Mudstoneiron"
+      },
+      {
+        "value": "CUSTOM:Mudstonetungsten"
+      },
+      {
+        "value": "CUSTOM:Mudstonetitanium"
+      },
+      {
+        "value": "CUSTOM:Mudstonedurasteel"
+      },
+      {
+        "value": "CUSTOM:Mudstoneaegisalt"
+      },
+      {
+        "value": "CUSTOM:Mudstoneferozium"
+      },
+      {
+        "value": "CUSTOM:Mudstoneviolium"
+      },
+      {
+        "value": "CUSTOM:Mudstonesolarium"
+      },
+      {
+        "value": "CUSTOM:Mudstonecorefragment"
+      },
+      {
+        "value": "CUSTOM:Wetdirtcoal"
+      },
+      {
+        "value": "CUSTOM:Wetdirtcopper"
+      },
+      {
+        "value": "CUSTOM:Wetdirtsilver"
+      },
+      {
+        "value": "CUSTOM:Wetdirtgold"
+      },
+      {
+        "value": "CUSTOM:Wetdirtdiamond"
+      },
+      {
+        "value": "CUSTOM:Wetdirtiron"
+      },
+      {
+        "value": "CUSTOM:Wetdirttungsten"
+      },
+      {
+        "value": "CUSTOM:Wetdirttitanium"
+      },
+      {
+        "value": "CUSTOM:Wetdirtdurasteel"
+      },
+      {
+        "value": "CUSTOM:Wetdirtaegisalt"
+      },
+      {
+        "value": "CUSTOM:Wetdirtferozium"
+      },
+      {
+        "value": "CUSTOM:Wetdirtviolium"
+      },
+      {
+        "value": "CUSTOM:Wetdirtsolarium"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "ore_block",
+    "namespace": "mod"
+  }
+}

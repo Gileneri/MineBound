@@ -1,0 +1,19 @@
+{
+	"texture": "celestial:sky/toxicoceanplanet/objects/poison_fog.png",
+	"display": {
+		"scale": "400",
+		"distance": "(#yPos / 50)"
+	},
+	"rotation": {
+		"degrees_x": "-92",
+		"degrees_y": "0",
+		"degrees_z": "0"
+	},
+	"properties": {
+		"alpha": "1 - #lowAtmosphere",
+		"red": "(#dayLight)M0.15",
+		"green": "(#dayLight)M0.15",
+		"blue": "(#dayLight)M0.15",
+		"is_solid": true
+	}
+}

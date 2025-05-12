@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minebound:block/generate_in_depth_1"
+    }
+  }
+}

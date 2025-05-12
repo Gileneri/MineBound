@@ -1,0 +1,46 @@
+{
+	"texture": "celestial:sky/lava_planet/objects/underlava_sides.png",
+	"display": {
+		"scale": "0",
+		"pos_x": "0",
+		"pos_y": "0",
+		"pos_z": "(-17) - #yPos",
+		"distance": "-230"
+	},
+	"rotation": {
+		"degrees_x": "0",
+		"degrees_y": "0",
+		"degrees_z": "0"
+	},
+	"properties": {
+		"is_solid": true,
+		"alpha": "#yPos < 196"
+	},
+	"populate": {
+	"objects": [{
+				"degrees_x": 0,
+				"degrees_y": 0,
+				"degrees_z": 90,
+				"scale": 230
+			},
+			{
+				"degrees_x": 0,
+				"degrees_y": 0,
+				"degrees_z": 180,
+				"scale": 230
+			},
+			{
+				"degrees_x": 0,
+				"degrees_y": 0,
+				"degrees_z": 270,
+				"scale": 230
+			},
+			{
+				"degrees_x": 0,
+				"degrees_y": 0,
+				"degrees_z": 360,
+				"scale": 230
+			}
+			]
+	}
+}

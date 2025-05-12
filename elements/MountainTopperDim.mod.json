@@ -1,0 +1,60 @@
+{
+  "_fv": 39,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:NoSnowHighUpBiome"
+      },
+      {
+        "value": "CUSTOM:DepthTestBiome1"
+      },
+      {
+        "value": "CUSTOM:DepthTestBiome2"
+      },
+      {
+        "value": "CUSTOM:DepthTestBiome3"
+      },
+      {
+        "value": "CUSTOM:DepthTestBiome4"
+      },
+      {
+        "value": "CUSTOM:DepthTestBiome5"
+      },
+      {
+        "value": "CUSTOM:DepthTestBiome6"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:ConcreteBlock"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": ""
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Mountain Topper Dim Portal Igniter",
+    "igniterTab": {
+      "value": "No creative tab entry"
+    },
+    "texture": "",
+    "portalTexture": "",
+    "enablePortal": false
+  }
+}

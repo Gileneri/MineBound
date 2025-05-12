@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/geode_crystals1",
+    "up": "minebound:blocks/geode_crystals1",
+    "north": "minebound:blocks/geode_crystals1",
+    "east": "minebound:blocks/geode_crystals1",
+    "south": "minebound:blocks/geode_crystals1",
+    "west": "minebound:blocks/geode_crystals1",
+    "particle": "minebound:blocks/geode_crystals1"
+  },
+  "render_type": "solid"
+}

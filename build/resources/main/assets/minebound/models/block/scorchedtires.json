@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/scorched_tires",
+  "textures": {
+    "all": "minebound:blocks/scorched_tires",
+    "particle": "minebound:blocks/scorched_tires",
+    "0": "minebound:blocks/scorched_tires"
+  },
+  "render_type": "solid"
+}

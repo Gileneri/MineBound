@@ -1,0 +1,71 @@
+{
+	"sky_objects": [
+		"skybox",
+		"nebula",
+		"stars",
+		"glitter1",
+		"glitter2",
+		"glitter3",
+		"moon_sun",
+		"moon_glow_ring",
+		"moon_glow_ring2",
+		"moon_glow_ring_Z1",
+		"moon_glow_ring_Z2",
+		"moon_horizon",
+		"moon_far_hills",
+		"moon_texture",
+		"moon_morning",
+		"moon_midday",
+		"moon_dusk",
+		"moon_night",
+		"asteroids",
+		//"space_junk",
+		//"asteroids2",
+		"asteroids3",
+		"asteroids1"
+		//"asteroids4"
+		
+	],
+	"environment": {
+		"sky_color": {
+			"update_frequency": 0,
+			"base_color": "#9f926a",
+			"colors": [{
+				"color": "#000000",
+				"alpha": " - #skyDarknessHigher"
+			}]
+		},
+		"clouds" : {
+			"height": "-2000",
+			"color": "#000000"
+		},
+		"void_culling_level": "-100",
+		"fog_color": {
+			"update_frequency": 0,
+			"base_color": "#9f926a",
+			"colors": [{
+				"color": "#9f926a",
+				"alpha": "((#skyDarknessHigher) * #rainGradient) * (1 - #twilightAlpha)"
+			},
+			{
+			 "color": "#9f926a",
+			 "alpha": "(1 - #rainGradient) * ( 1 - #twilightAlpha)"
+			},
+			{
+			 "color": "#9f926a",
+			 "alpha": "(1 - #rainGradient) * #twilightAlpha"
+			},
+			{
+			 "color": "#9f926a",
+			 "alpha": "(#yPos < 125)"
+			}]
+		},
+		"fog":{
+			"has_thick_fog": false,
+			"fog_start": "200",
+			"fog_end": "264"
+		},
+		"twilight_alpha": "(- #skyDarknessHigher) * ( 1 - #rainGradient)",
+		"twilight_color" : "#dc92d2"
+	}
+}

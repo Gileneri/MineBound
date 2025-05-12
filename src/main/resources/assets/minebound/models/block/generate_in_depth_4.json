@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/flesh_pile1",
+    "up": "minebound:blocks/flesh_pile1",
+    "north": "minebound:blocks/flesh_pile1",
+    "east": "minebound:blocks/flesh_pile1",
+    "south": "minebound:blocks/flesh_pile1",
+    "west": "minebound:blocks/flesh_pile1",
+    "particle": "minebound:blocks/flesh_pile1"
+  },
+  "render_type": "solid"
+}

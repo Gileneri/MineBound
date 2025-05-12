@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/rusted_broken_fan"
+    },
+    "facing=east": {
+      "model": "minebound:block/rusted_broken_fan",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/rusted_broken_fan",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/rusted_broken_fan",
+      "y": 270
+    }
+  }
+}

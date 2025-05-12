@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/rustedwatertank"
+    },
+    "facing=east": {
+      "model": "minebound:block/rustedwatertank",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/rustedwatertank",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/rustedwatertank",
+      "y": 270
+    }
+  }
+}

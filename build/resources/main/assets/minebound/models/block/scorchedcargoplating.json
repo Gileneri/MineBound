@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minebound:blocks/scorched_cargo_plating",
+    "particle": "minebound:blocks/scorched_cargo_plating"
+  },
+  "render_type": "solid"
+}

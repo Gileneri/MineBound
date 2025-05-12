@@ -1,0 +1,28 @@
+{
+  "_fv": 39,
+  "_type": "structure",
+  "definition": {
+    "structure": "wooden_telephone_pole",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 18000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": -1,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "CUSTOM:DecayedPlanet",
+      "CUSTOM:MidnightPlanet",
+      "CUSTOM:VolcanicPlanet"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:DecayedBiome"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

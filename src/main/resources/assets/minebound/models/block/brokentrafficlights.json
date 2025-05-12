@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/broken_traffic_lights",
+  "textures": {
+    "all": "minebound:blocks/broken_traffic_lights",
+    "particle": "minebound:blocks/broken_traffic_lights",
+    "0": "minebound:blocks/broken_traffic_lights"
+  },
+  "render_type": "solid"
+}

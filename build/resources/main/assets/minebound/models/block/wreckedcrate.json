@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/wrecked_crate",
+  "textures": {
+    "all": "minebound:blocks/wrecked_crate",
+    "particle": "minebound:blocks/wrecked_crate",
+    "0": "minebound:blocks/wrecked_crate"
+  },
+  "render_type": "solid"
+}

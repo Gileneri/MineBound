@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/broken_register",
+  "textures": {
+    "all": "minebound:blocks/broken_register",
+    "particle": "minebound:blocks/broken_register",
+    "0": "minebound:blocks/broken_register"
+  },
+  "render_type": "solid"
+}

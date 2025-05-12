@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/brokentrafficlights"
+    },
+    "facing=east": {
+      "model": "minebound:block/brokentrafficlights",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/brokentrafficlights",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/brokentrafficlights",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/rustedpole",
+  "textures": {
+    "all": "minebound:blocks/poletext",
+    "particle": "minebound:blocks/poletext",
+    "1": "minebound:blocks/poletext"
+  },
+  "render_type": "solid"
+}

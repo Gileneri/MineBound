@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/utilitypole"
+    },
+    "facing=east": {
+      "model": "minebound:block/utilitypole",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/utilitypole",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/utilitypole",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:decayed_biome",
+  "features": "minebound:telephone_pole",
+  "step": "surface_structures"
+}

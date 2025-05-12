@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/decayedshelf"
+    },
+    "facing=east": {
+      "model": "minebound:block/decayedshelf",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/decayedshelf",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/decayedshelf",
+      "y": 270
+    }
+  }
+}

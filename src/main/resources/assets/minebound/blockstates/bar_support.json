@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "minebound:block/bar_support",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minebound:block/bar_support"
+    },
+    "axis=z": {
+      "model": "minebound:block/bar_support",
+      "x": 90
+    }
+  }
+}

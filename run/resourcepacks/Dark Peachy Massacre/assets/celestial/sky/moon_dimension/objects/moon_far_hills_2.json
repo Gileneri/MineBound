@@ -1,0 +1,22 @@
+{
+	"texture": "celestial:sky/articplanet/objects/island_sketch.png",
+	"display": {
+		"scale": "1024",
+		"pos_x": "0",
+		"pos_y": "0",
+		"pos_z": "(198) - #yPos",
+		"distance": "-900"
+	},
+	"rotation": {
+		"degrees_x": "0",
+		"degrees_y": "0",
+		"degrees_z": "0"
+	},
+	"properties": {
+		"is_solid": true,
+		"red": "(#dayLight)M0.15",
+		"green": "(#dayLight)M0.15",
+		"blue": "(#dayLight)M0.15",
+		"alpha": "#yPos < 344"
+	}
+}

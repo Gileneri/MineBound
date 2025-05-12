@@ -1,0 +1,19 @@
+{
+	"texture": "celestial:sky/articplanet/objects/ocean_horizon1.png",
+	"display": {
+		"scale": "90",
+		"distance": "(#yPos / 100)"
+	},
+	"rotation": {
+		"degrees_x": "-92.2",
+		"degrees_y": "45",
+		"degrees_z": "2.75"
+	},
+	"properties": {
+		"alpha": "1 - #lowAtmosphere",
+		"red": "(#dayLight)M0.15",
+		"green": "(#dayLight)M0.15",
+		"blue": "(#dayLight)M0.15",
+		"is_solid": true
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:magmaocean",
+  "features": "minebound:granite_rock",
+  "step": "underground_ores"
+}

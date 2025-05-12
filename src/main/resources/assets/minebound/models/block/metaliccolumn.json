@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/scorched_column-top",
+    "up": "minebound:blocks/scorched_column-top",
+    "north": "minebound:blocks/scorched_column_side",
+    "east": "minebound:blocks/scorched_column_side",
+    "south": "minebound:blocks/scorched_column_side",
+    "west": "minebound:blocks/scorched_column_side",
+    "particle": "minebound:blocks/scorched_column-top"
+  },
+  "render_type": "solid"
+}

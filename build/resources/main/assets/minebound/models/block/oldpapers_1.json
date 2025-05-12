@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/old_news_paper1",
+  "textures": {
+    "all": "minebound:blocks/old_news_paper",
+    "particle": "minebound:blocks/old_news_paper",
+    "1": "minebound:blocks/old_news_paper"
+  },
+  "render_type": "cutout"
+}

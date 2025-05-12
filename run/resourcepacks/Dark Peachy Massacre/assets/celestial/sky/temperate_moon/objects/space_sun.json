@@ -1,0 +1,14 @@
+{
+	"texture": "celestial:sky/temperate_moon/objects/space_sun.png",
+	"display": {
+		"scale": "22",
+		"distance": "100"
+	},
+	"rotation": {
+		"degrees_x": "#skyAngle + 90"
+	},
+	"properties": {
+		"alpha": "#dayLight",
+		"is_solid": false
+	}
+}

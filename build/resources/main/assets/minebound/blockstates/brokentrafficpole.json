@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/brokentrafficpole"
+    },
+    "facing=east": {
+      "model": "minebound:block/brokentrafficpole",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/brokentrafficpole",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/brokentrafficpole",
+      "y": 270
+    }
+  }
+}

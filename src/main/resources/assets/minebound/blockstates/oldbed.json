@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/oldbed"
+    },
+    "facing=east": {
+      "model": "minebound:block/oldbed",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/oldbed",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/oldbed",
+      "y": 270
+    }
+  }
+}

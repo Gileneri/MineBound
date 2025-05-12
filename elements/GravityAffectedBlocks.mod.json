@@ -1,0 +1,54 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Ash"
+      },
+      {
+        "value": "CUSTOM:Coarsegravel"
+      },
+      {
+        "value": "CUSTOM:Jellyblob"
+      },
+      {
+        "value": "CUSTOM:Loosesilt"
+      },
+      {
+        "value": "CUSTOM:PackedBones"
+      },
+      {
+        "value": "CUSTOM:PileOfBooks"
+      },
+      {
+        "value": "CUSTOM:PileOfEyes"
+      },
+      {
+        "value": "CUSTOM:SlimeGlob"
+      },
+      {
+        "value": "CUSTOM:Slush"
+      },
+      {
+        "value": "CUSTOM:Stonerubble"
+      },
+      {
+        "value": "CUSTOM:TreasureHoard"
+      },
+      {
+        "value": "CUSTOM:Waste"
+      },
+      {
+        "value": "CUSTOM:Junkpile"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "gravity_affected_blocks",
+    "namespace": "mod"
+  }
+}

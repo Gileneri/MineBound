@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/fallen_table",
+  "textures": {
+    "all": "minebound:blocks/broken_table",
+    "particle": "minebound:blocks/broken_table",
+    "0": "minebound:blocks/broken_table"
+  },
+  "render_type": "solid"
+}

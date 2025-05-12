@@ -1,0 +1,44 @@
+{
+  "_fv": 39,
+  "_type": "structure",
+  "definition": {
+    "structure": "benches1",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 1500,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -1,
+    "spawnXOffset": -16,
+    "spawnZOffset": -8,
+    "spawnWorldTypes": [
+      "CUSTOM:MidnightPlanet",
+      "CUSTOM:VolcanicPlanet",
+      "CUSTOM:DecayedPlanet"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:Drysand"
+      },
+      {
+        "value": "CUSTOM:Drydirt"
+      },
+      {
+        "value": "CUSTOM:UnrefinedChert"
+      },
+      {
+        "value": "CUSTOM:Junkpile"
+      },
+      {
+        "value": "CUSTOM:Stonerubble"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:DecayedBiome"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

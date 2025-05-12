@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/lunar_base_block4",
+    "up": "minebound:blocks/lunar_base_block4",
+    "north": "minebound:blocks/lunar_base_block4",
+    "east": "minebound:blocks/lunar_base_block4",
+    "south": "minebound:blocks/lunar_base_block4",
+    "west": "minebound:blocks/lunar_base_block4",
+    "particle": "minebound:blocks/lunar_base_block4"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,47 @@
+{
+	"texture": "celestial:sky/moon_dimension/objects/asteroids1.png",
+	"display": {
+		"scale": "20",
+		"pos_x": "0",
+		"pos_y": "0",
+		"pos_z": "368 - #yPos",
+		"distance": "-130"
+	},
+	"rotation": {
+		"degrees_x": "0",
+		"degrees_y": "0",
+		"degrees_z": "0"
+	},
+	"properties": {
+		"is_solid": true,
+		"is_solid": true,
+		"red": "(#dayLight)M0.15",
+		"green": "(#dayLight)M0.15",
+		"blue": "(#dayLight)M0.15",
+		"alpha": "#atmosphere"
+	},
+	"populate": {
+		"count": 35,
+		"rotation": {
+			"min_degrees_x": 0,
+			"max_degrees_x": 0,
+			"min_degrees_y": 0,
+			"max_degrees_y": 0,
+			"min_degrees_z": 0,
+			"max_degrees_z": 360
+		},
+		"display": {
+			"min_scale": 20,
+			"max_scale": 40,
+			"min_pos_x": 0,
+			"max_pos_x": 0,
+			"min_pos_y": 0,
+			"max_pos_y": 0,
+			"min_pos_z": -5,
+			"max_pos_z": 200,
+			"min_distance": -100,
+			"max_distance": -400
+		},
+		"per_object_calculations": true
+	}
+}

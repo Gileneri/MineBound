@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:toxic_ocean",
+  "features": "minebound:waste",
+  "step": "underground_ores"
+}

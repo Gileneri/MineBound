@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/basic_toilet",
+  "textures": {
+    "all": "minebound:blocks/basic_toilet",
+    "particle": "minebound:blocks/basic_toilet",
+    "0": "minebound:blocks/basic_toilet"
+  },
+  "render_type": "translucent"
+}

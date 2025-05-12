@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/brokenradiocabinet"
+    },
+    "facing=east": {
+      "model": "minebound:block/brokenradiocabinet",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/brokenradiocabinet",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/brokenradiocabinet",
+      "y": 270
+    }
+  }
+}

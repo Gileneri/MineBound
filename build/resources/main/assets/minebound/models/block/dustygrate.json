@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minebound:blocks/dusty_grate",
+    "particle": "minebound:blocks/dusty_grate"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/flickeringlightbulb"
+    },
+    "facing=east": {
+      "model": "minebound:block/flickeringlightbulb",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/flickeringlightbulb",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/flickeringlightbulb",
+      "y": 270
+    }
+  }
+}

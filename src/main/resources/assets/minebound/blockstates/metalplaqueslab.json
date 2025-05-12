@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minebound:block/metalplaqueslab"
+    },
+    "type=top": {
+      "model": "minebound:block/metalplaqueslab_top"
+    },
+    "type=double": {
+      "model": "minebound:block/metalplaqueslab_full"
+    }
+  }
+}

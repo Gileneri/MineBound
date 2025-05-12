@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/flickering_lightbulb",
+  "textures": {
+    "all": "minebound:blocks/flickering_lightbulb",
+    "particle": "minebound:blocks/flickering_lightbulb",
+    "0": "minebound:blocks/flickering_lightbulb"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/large_broken_mirror",
+  "textures": {
+    "all": "minebound:blocks/broken_large_mirror",
+    "particle": "minebound:blocks/broken_large_mirror",
+    "0": "minebound:blocks/broken_large_mirror"
+  },
+  "render_type": "translucent"
+}

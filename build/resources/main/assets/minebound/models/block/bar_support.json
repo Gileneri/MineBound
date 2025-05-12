@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/barsupport",
+  "textures": {
+    "all": "minebound:blocks/barsupport",
+    "particle": "minebound:blocks/barsupport",
+    "0": "minebound:blocks/barsupport"
+  },
+  "render_type": "solid"
+}

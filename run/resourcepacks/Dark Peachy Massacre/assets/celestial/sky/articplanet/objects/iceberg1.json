@@ -1,0 +1,22 @@
+{
+	"texture": "celestial:sky/articplanet/objects/iceberg1.png",
+	"display": {
+		"scale": "7.5",
+		"pos_x": "0",
+		"pos_y": "0",
+		"pos_z": "(36) + ( - (#yPos / 5))",
+		"distance": "-50"
+	},
+	"rotation": {
+		"degrees_x": "0",
+		"degrees_y": "0",
+		"degrees_z": "(#skyAngle * 0.2)"
+	},
+	"properties": {
+		"is_solid": true,
+		"red": "(#dayLight)M0.15",
+		"green": "(#dayLight)M0.15",
+		"blue": "(#dayLight)M0.15",
+		"alpha": "1 - #BackgroundYPos"
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/rusted_shelf_model",
+  "textures": {
+    "all": "minebound:blocks/decayed_shelf",
+    "particle": "minebound:blocks/decayed_shelf",
+    "0": "minebound:blocks/decayed_shelf"
+  },
+  "render_type": "solid"
+}

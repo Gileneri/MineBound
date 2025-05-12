@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/pipefence"
+    },
+    "facing=east": {
+      "model": "minebound:block/pipefence",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/pipefence",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/pipefence",
+      "y": 270
+    }
+  }
+}

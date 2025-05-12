@@ -1,0 +1,44 @@
+{
+  "_fv": 39,
+  "_type": "structure",
+  "definition": {
+    "structure": "junk_pile3",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 5000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -1,
+    "spawnXOffset": -3,
+    "spawnZOffset": -3,
+    "spawnWorldTypes": [
+      "CUSTOM:DecayedPlanet",
+      "CUSTOM:VolcanicPlanet",
+      "CUSTOM:MidnightPlanet"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:Drysand"
+      },
+      {
+        "value": "CUSTOM:Drydirt"
+      },
+      {
+        "value": "CUSTOM:UnrefinedChert"
+      },
+      {
+        "value": "CUSTOM:Junkpile"
+      },
+      {
+        "value": "CUSTOM:Stonerubble"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:DecayedBiome"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

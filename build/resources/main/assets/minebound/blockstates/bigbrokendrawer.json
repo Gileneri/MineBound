@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/bigbrokendrawer"
+    },
+    "facing=east": {
+      "model": "minebound:block/bigbrokendrawer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/bigbrokendrawer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/bigbrokendrawer",
+      "y": 270
+    }
+  }
+}

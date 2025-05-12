@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/old_bed",
+  "textures": {
+    "all": "minebound:blocks/old_bed",
+    "particle": "minebound:blocks/old_bed",
+    "0": "minebound:blocks/old_bed"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,22 @@
+package net.mcreator.minebound.procedures;
+
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.Entity;
+
+import net.mcreator.minebound.network.MineboundModVariables;
+
+public class BonusEnergyEffectExpiresProcedure {
+	public static void execute(LevelAccessor world, Entity entity) {
+		if (entity == null)
+			return;
+		if (!world.isClientSide()) {
+			{
+				double _setval = (entity.getCapability(MineboundModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new MineboundModVariables.PlayerVariables())).PLAYER_MAX_ENERGY - 20;
+				entity.getCapability(MineboundModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.PLAYER_MAX_ENERGY = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
+		}
+	}
+}

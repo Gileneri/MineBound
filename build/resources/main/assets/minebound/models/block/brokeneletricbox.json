@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/eletricbox",
+  "textures": {
+    "all": "minebound:blocks/eletricbox",
+    "particle": "minebound:blocks/eletricbox",
+    "0": "minebound:blocks/eletricbox"
+  },
+  "render_type": "solid"
+}

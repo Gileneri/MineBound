@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/broken_fridge",
+  "textures": {
+    "all": "minebound:blocks/broken_fridge",
+    "particle": "minebound:blocks/broken_fridge",
+    "0": "minebound:blocks/broken_fridge"
+  },
+  "render_type": "solid"
+}

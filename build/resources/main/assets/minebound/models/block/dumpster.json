@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/dumpster",
+  "textures": {
+    "all": "minebound:blocks/dumpster1",
+    "particle": "minebound:blocks/dumpster1",
+    "0": "minebound:blocks/dumpster1"
+  },
+  "render_type": "solid"
+}

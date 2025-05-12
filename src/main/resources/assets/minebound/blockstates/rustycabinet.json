@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/rustycabinet"
+    },
+    "facing=east": {
+      "model": "minebound:block/rustycabinet",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/rustycabinet",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/rustycabinet",
+      "y": 270
+    }
+  }
+}

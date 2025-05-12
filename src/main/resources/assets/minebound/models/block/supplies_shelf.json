@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/suppliesshelf_rework",
+  "textures": {
+    "all": "minebound:blocks/reworked",
+    "particle": "minebound:blocks/reworked",
+    "1": "minebound:blocks/reworked"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,68 @@
+{
+	"variables": [
+		{
+			"name": "skyDarkness",
+			"value": "((((#yPos) - 256)M(0)) / 1020)m(1)"
+		},
+		{
+			"name": "BackgroundYPos",
+			"value": "((((#yPos) - 342)M(0)) / 30)m(1)"
+		},
+		{
+			"name": "skyMoreDarkness",
+			"value": "((((#yPos) - 300)M(0)) / 800)m(1)"
+		},
+		{
+			"name": "skyDarknessHigher",
+			"value": "((((#yPos) - 384)M(0)) / 16)m(1)"
+		},
+		{
+			"name": "skyDarknessLower",
+			"value": "((((#yPos) - 384)M(0)) / 16)m(1)"
+		},
+		{
+			"name" : "atmosphere",
+			"value" : "((((#yPos) - 368)M(0)) / 16)m(1)"
+		},
+		{
+			"name" : "lowAtmosphere",
+			"value" : "((((#yPos) - 284)M(0)) / 16)m(1)"
+		},
+		{
+			"name" : "highAtmosphere",
+			"value" : "((- ((#yPos) - 284)M(0)) / 16)m(1)"
+		},
+		{
+			"name": "outAtm",
+			"value": "((((#yPos) - 512)M(0)) / 16)m(1)"
+		},
+		{
+			"name": "outAtmhigher",
+			"value": "((((#yPos) - 624)M(0)) / 16)m(1)"
+		},
+		{
+			"name": "rainSun",
+			"value": "((1 - #skyDarknessHigher) * (#rainGradient))"
+		},
+		{
+			"name" : "oceanatmosphere",
+			"value" : "((((#yPos) - 316)M(0)) / 16)m(1)"
+		},
+		{
+			"name": "uvStartX",
+			"value": "#zPos / 35000"
+		},
+		{
+			"name": "uvStartY",
+			"value": "#xPos / 35000"
+		},
+		{
+			"name": "uvEndX",
+			"value": "#uvStartX + 0.5"
+		},
+		{
+			"name": "uvEndY",
+			"value": "#uvStartY + 0.5"
+		}
+	]
+}

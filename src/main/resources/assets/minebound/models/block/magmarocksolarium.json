@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minebound:blocks/magmarock_solarium1",
+    "particle": "minebound:blocks/magmarock_solarium1"
+  },
+  "render_type": "solid"
+}

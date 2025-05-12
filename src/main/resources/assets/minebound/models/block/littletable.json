@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/mini_table",
+  "textures": {
+    "all": "minebound:blocks/small_table",
+    "particle": "minebound:blocks/small_table",
+    "0": "minebound:blocks/small_table"
+  },
+  "render_type": "solid"
+}

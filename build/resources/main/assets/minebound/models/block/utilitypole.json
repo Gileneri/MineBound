@@ -1,0 +1,10 @@
+{
+  "parent": "minebound:custom/ytilitypole2",
+  "textures": {
+    "all": "minebound:blocks/utility",
+    "particle": "minebound:blocks/utility",
+    "1": "minebound:blocks/utility",
+    "missing": "minebound:blocks/"
+  },
+  "render_type": "solid"
+}

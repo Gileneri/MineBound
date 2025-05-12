@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/rusted_table"
+    },
+    "facing=east": {
+      "model": "minebound:block/rusted_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/rusted_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/rusted_table",
+      "y": 270
+    }
+  }
+}

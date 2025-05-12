@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/wreckedcontrolpanel"
+    },
+    "facing=east": {
+      "model": "minebound:block/wreckedcontrolpanel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/wreckedcontrolpanel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/wreckedcontrolpanel",
+      "y": 270
+    }
+  }
+}

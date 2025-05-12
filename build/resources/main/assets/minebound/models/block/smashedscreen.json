@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/smashed_screen",
+  "textures": {
+    "all": "minebound:blocks/smashed_television",
+    "particle": "minebound:blocks/smashed_television",
+    "0": "minebound:blocks/smashed_screen"
+  },
+  "render_type": "solid"
+}

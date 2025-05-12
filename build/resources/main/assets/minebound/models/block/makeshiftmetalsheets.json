@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minebound:blocks/makeshift_sheets",
+    "particle": "minebound:blocks/makeshift_sheets"
+  },
+  "render_type": "solid"
+}

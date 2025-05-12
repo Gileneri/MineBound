@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/horizontal_wrecked_vent",
+  "textures": {
+    "all": "minebound:blocks/horizontal_wrecked_vent",
+    "particle": "minebound:blocks/horizontal_wrecked_vent",
+    "0": "minebound:blocks/horizontal_wrecked_vent"
+  },
+  "render_type": "solid"
+}

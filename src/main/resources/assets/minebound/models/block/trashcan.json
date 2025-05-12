@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/thash_can",
+  "textures": {
+    "all": "minebound:blocks/trash_can",
+    "particle": "minebound:blocks/trash_can",
+    "0": "minebound:blocks/trash_can"
+  },
+  "render_type": "solid"
+}

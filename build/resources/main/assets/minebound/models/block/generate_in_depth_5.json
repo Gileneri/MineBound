@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/crystal_block1",
+    "up": "minebound:blocks/crystal_block1",
+    "north": "minebound:blocks/crystal_block1",
+    "east": "minebound:blocks/crystal_block1",
+    "south": "minebound:blocks/crystal_block1",
+    "west": "minebound:blocks/crystal_block1",
+    "particle": "minebound:blocks/crystal_block1"
+  },
+  "render_type": "solid"
+}

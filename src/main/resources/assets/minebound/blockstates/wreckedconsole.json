@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/wreckedconsole"
+    },
+    "facing=east": {
+      "model": "minebound:block/wreckedconsole",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/wreckedconsole",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/wreckedconsole",
+      "y": 270
+    }
+  }
+}

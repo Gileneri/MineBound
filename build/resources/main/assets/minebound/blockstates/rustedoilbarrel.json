@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "minebound:block/rustedoilbarrel",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minebound:block/rustedoilbarrel"
+    },
+    "axis=z": {
+      "model": "minebound:block/rustedoilbarrel",
+      "x": 90
+    }
+  }
+}

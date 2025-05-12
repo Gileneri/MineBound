@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/rusted_oil_barrel",
+  "textures": {
+    "all": "minebound:blocks/rusted_oil_barrel",
+    "particle": "minebound:blocks/rusted_oil_barrel",
+    "1": "minebound:blocks/rusted_oil_barrel"
+  },
+  "render_type": "solid"
+}

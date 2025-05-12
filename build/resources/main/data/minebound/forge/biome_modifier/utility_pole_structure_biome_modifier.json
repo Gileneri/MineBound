@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:decayed_biome",
+  "features": "minebound:utility_pole_structure",
+  "step": "surface_structures"
+}

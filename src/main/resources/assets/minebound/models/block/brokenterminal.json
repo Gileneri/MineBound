@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/broken_terminal",
+  "textures": {
+    "all": "minebound:blocks/rusted_terminal",
+    "particle": "minebound:blocks/rusted_terminal",
+    "0": "minebound:blocks/rusted_terminal"
+  },
+  "render_type": "solid"
+}

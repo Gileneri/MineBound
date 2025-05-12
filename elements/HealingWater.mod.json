@@ -1,0 +1,52 @@
+{
+  "_fv": 39,
+  "_type": "fluid",
+  "definition": {
+    "name": "Healing Water",
+    "bucketName": "Healing Water",
+    "textureStill": "healingwatertex",
+    "textureFlowing": "healingwatertex",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 5,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "CUSTOM:DripingWet"
+    },
+    "flowStrength": 1.0,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": false,
+    "textureBucket": "healing_water_icon",
+    "creativeTab": {
+      "value": "CUSTOM:ItemsAndOres"
+    },
+    "emptySound": {
+      "value": "CUSTOM:silence"
+    },
+    "rarity": "COMMON",
+    "specialInfo": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "a"
+    ],
+    "resistance": 100.0,
+    "luminance": 4,
+    "lightOpacity": 1,
+    "emissiveRendering": true,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "LIGHT_BLUE",
+    "onEntityCollides": {
+      "name": "HealingWaterMobplayerCollidesBlock"
+    }
+  }
+}

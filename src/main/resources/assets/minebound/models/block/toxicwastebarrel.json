@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/toxic_waste_barrel",
+  "textures": {
+    "all": "minebound:blocks/toxic_wate_barrel",
+    "particle": "minebound:blocks/toxic_wate_barrel",
+    "0": "minebound:blocks/toxic_wate_barrel"
+  },
+  "render_type": "solid"
+}

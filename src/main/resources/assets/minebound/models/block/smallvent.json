@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/small_vent",
+  "textures": {
+    "all": "minebound:blocks/small_vent",
+    "particle": "minebound:blocks/small_vent",
+    "0": "minebound:blocks/small_vent"
+  },
+  "render_type": "solid"
+}

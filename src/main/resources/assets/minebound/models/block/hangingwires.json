@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/hanging_wires",
+  "textures": {
+    "all": "minebound:blocks/hanging_wires",
+    "particle": "minebound:blocks/hanging_wires",
+    "0": "minebound:blocks/hanging_wires"
+  },
+  "render_type": "solid"
+}

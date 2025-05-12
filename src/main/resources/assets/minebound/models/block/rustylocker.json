@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/rusty_locker",
+  "textures": {
+    "all": "minebound:blocks/rusted_locker",
+    "particle": "minebound:blocks/rusted_locker",
+    "0": "minebound:blocks/rusted_locker"
+  },
+  "render_type": "solid"
+}

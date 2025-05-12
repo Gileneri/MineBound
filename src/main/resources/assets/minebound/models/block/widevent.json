@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/wide_vent",
+  "textures": {
+    "all": "minebound:blocks/wide_vent",
+    "particle": "minebound:blocks/wide_vent",
+    "0": "minebound:blocks/wide_vent"
+  },
+  "render_type": "solid"
+}

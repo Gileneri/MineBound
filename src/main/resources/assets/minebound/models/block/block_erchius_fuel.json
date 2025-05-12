@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minebound:blocks/fuel",
+    "particle": "minebound:blocks/fuel"
+  },
+  "render_type": "translucent"
+}

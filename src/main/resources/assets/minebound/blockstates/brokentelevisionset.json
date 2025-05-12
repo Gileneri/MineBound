@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/brokentelevisionset"
+    },
+    "facing=east": {
+      "model": "minebound:block/brokentelevisionset",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/brokentelevisionset",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/brokentelevisionset",
+      "y": 270
+    }
+  }
+}

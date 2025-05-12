@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/dumpster"
+    },
+    "facing=east": {
+      "model": "minebound:block/dumpster",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/dumpster",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/dumpster",
+      "y": 270
+    }
+  }
+}

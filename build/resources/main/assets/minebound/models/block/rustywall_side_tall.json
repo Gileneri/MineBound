@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "minebound:blocks/rusty_metal_plaques",
+    "particle": "minebound:blocks/rusty_metal_plaques"
+  },
+  "render_type": "solid"
+}

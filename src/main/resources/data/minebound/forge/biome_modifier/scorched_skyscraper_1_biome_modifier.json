@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:decayed_biome",
+  "features": "minebound:scorched_skyscraper_1",
+  "step": "surface_structures"
+}

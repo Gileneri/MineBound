@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/rusty_cabinet",
+  "textures": {
+    "all": "minebound:blocks/rusty_cabinet",
+    "particle": "minebound:blocks/rusty_cabinet",
+    "0": "minebound:blocks/rusty_cabinet"
+  },
+  "render_type": "solid"
+}

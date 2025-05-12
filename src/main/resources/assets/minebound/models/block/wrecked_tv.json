@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/wrecked_tv",
+  "textures": {
+    "all": "minebound:blocks/broken_tv",
+    "particle": "minebound:blocks/broken_tv",
+    "0": "minebound:blocks/broken_tv"
+  },
+  "render_type": "solid"
+}

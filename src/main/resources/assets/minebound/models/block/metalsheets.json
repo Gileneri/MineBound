@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/metal_sheet_top",
+    "up": "minebound:blocks/metal_sheet_top",
+    "north": "minebound:blocks/metal_sheet",
+    "east": "minebound:blocks/metal_sheet",
+    "south": "minebound:blocks/metal_sheet",
+    "west": "minebound:blocks/metal_sheet",
+    "particle": "minebound:blocks/metal_sheet_top"
+  },
+  "render_type": "solid"
+}

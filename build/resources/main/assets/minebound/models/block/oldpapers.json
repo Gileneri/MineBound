@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "minebound:blocks/old_news_paper",
+    "particle": "minebound:blocks/old_news_paper"
+  },
+  "render_type": "cutout"
+}

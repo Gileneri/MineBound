@@ -1,0 +1,376 @@
+{
+  "inventory_pickup1": {
+    "category": "block",
+    "subtitle": "subtitles.inventory_pickup1",
+    "sounds": [
+      {
+        "name": "minebound:inventory_pickup1",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_rock": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_rock",
+    "sounds": [
+      {
+        "name": "minebound:footstep_rock",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_stone3": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_stone3",
+    "sounds": [
+      {
+        "name": "minebound:footstep_stone3",
+        "stream": false
+      }
+    ]
+  },
+  "sand_fall1": {
+    "category": "block",
+    "subtitle": "subtitles.sand_fall1",
+    "sounds": [
+      {
+        "name": "minebound:sand_fall1",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_ash": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_ash",
+    "sounds": [
+      {
+        "name": "minebound:footstep_ash",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_stone2": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_stone2",
+    "sounds": [
+      {
+        "name": "minebound:footstep_stone2",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_clay1": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_clay1",
+    "sounds": [
+      {
+        "name": "minebound:footstep_wetclay",
+        "stream": false
+      }
+    ]
+  },
+  "silence": {
+    "category": "block",
+    "subtitle": "subtitles.silence",
+    "sounds": [
+      {
+        "name": "minebound:silent",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_dirt": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_dirt",
+    "sounds": [
+      {
+        "name": "minebound:footstep_dirt",
+        "stream": false
+      }
+    ]
+  },
+  "footspet_stone": {
+    "category": "block",
+    "subtitle": "subtitles.footspet_stone",
+    "sounds": [
+      {
+        "name": "minebound:footstep_stone",
+        "stream": false
+      }
+    ]
+  },
+  "inventory_putdown1": {
+    "category": "block",
+    "subtitle": "subtitles.inventory_putdown1",
+    "sounds": [
+      {
+        "name": "minebound:inventory_putdown1",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_dry_dirt": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_dry_dirt",
+    "sounds": [
+      {
+        "name": "minebound:footstep_drydirt_",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_sand": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_sand",
+    "sounds": [
+      {
+        "name": "minebound:footstep_sand",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_mud": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_mud",
+    "sounds": [
+      {
+        "name": "minebound:footstep_mud",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_ice": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_ice",
+    "sounds": [
+      {
+        "name": "minebound:footstep_ice",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_brains": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_brains",
+    "sounds": [
+      {
+        "name": "minebound:footstep_brains",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_crystals": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_crystals",
+    "sounds": [
+      {
+        "name": "minebound:footstep_crystal",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_gravel": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_gravel",
+    "sounds": [
+      {
+        "name": "minebound:footstep_gravel",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_bone": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_bone",
+    "sounds": [
+      {
+        "name": "minebound:footstep_bone",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_slush": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_slush",
+    "sounds": [
+      {
+        "name": "minebound:footstep_slush",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_wood": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_wood",
+    "sounds": [
+      {
+        "name": "minebound:footstep_wood",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_tallgrass": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_tallgrass",
+    "sounds": [
+      {
+        "name": "minebound:footstep_tallgrass",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_snow": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_snow",
+    "sounds": [
+      {
+        "name": "minebound:footstep_snow",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_light_wood": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_light_wood",
+    "sounds": [
+      {
+        "name": "minebound:footstep_lightwood",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_glass": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_glass",
+    "sounds": [
+      {
+        "name": "minebound:footstep_glass",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_grass": {
+    "category": "neutral",
+    "subtitle": "subtitles.footstep_grass",
+    "sounds": [
+      {
+        "name": "minebound:footstep_grass",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_composite": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_composite",
+    "sounds": [
+      {
+        "name": "minebound:footstep_composite",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_lightmetal": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_lightmetal",
+    "sounds": [
+      {
+        "name": "minebound:footstep_lightmetal",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_metallic": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_metallic",
+    "sounds": [
+      {
+        "name": "minebound:footstep_metallic",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_rooftile": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_rooftile",
+    "sounds": [
+      {
+        "name": "minebound:footstep_rooftile",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_girder": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_girder",
+    "sounds": [
+      {
+        "name": "minebound:footstep_girder",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_treasure": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_treasure",
+    "sounds": [
+      {
+        "name": "minebound:footstep_treasure",
+        "stream": false
+      }
+    ]
+  },
+  "energy_out1": {
+    "category": "neutral",
+    "subtitle": "subtitles.energy_out1",
+    "sounds": [
+      {
+        "name": "minebound:energy_out1",
+        "stream": false
+      }
+    ]
+  },
+  "energy_full1": {
+    "category": "neutral",
+    "subtitle": "subtitles.energy_full1",
+    "sounds": [
+      {
+        "name": "minebound:energy_full1",
+        "stream": false
+      }
+    ]
+  },
+  "starving1": {
+    "category": "player",
+    "subtitle": "subtitles.starving1",
+    "sounds": [
+      {
+        "name": "minebound:starving1",
+        "stream": false
+      }
+    ]
+  },
+  "starving2": {
+    "category": "player",
+    "subtitle": "subtitles.starving2",
+    "sounds": [
+      {
+        "name": "minebound:starving2",
+        "stream": false
+      }
+    ]
+  },
+  "ore_breaking1_2": {
+    "category": "block",
+    "subtitle": "subtitles.ore_breaking1_2",
+    "sounds": [
+      {
+        "name": "minebound:ore1",
+        "stream": false
+      },
+      {
+        "name": "minebound:ore2",
+        "stream": false
+      }
+    ]
+  }
+}

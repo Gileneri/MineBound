@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/broken_wooden_chair",
+  "textures": {
+    "all": "minebound:blocks/broken_wooden_chair",
+    "particle": "minebound:blocks/broken_wooden_chair",
+    "0": "minebound:blocks/broken_wooden_chair"
+  },
+  "render_type": "solid"
+}

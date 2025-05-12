@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/dry_rock",
+    "up": "minebound:blocks/dry_rock",
+    "north": "minebound:blocks/dry_rock",
+    "east": "minebound:blocks/dry_rock",
+    "south": "minebound:blocks/dry_rock",
+    "west": "minebound:blocks/dry_rock",
+    "particle": "minebound:blocks/dry_rock"
+  },
+  "render_type": "solid"
+}

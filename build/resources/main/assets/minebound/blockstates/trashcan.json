@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/trashcan"
+    },
+    "facing=east": {
+      "model": "minebound:block/trashcan",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/trashcan",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/trashcan",
+      "y": 270
+    }
+  }
+}

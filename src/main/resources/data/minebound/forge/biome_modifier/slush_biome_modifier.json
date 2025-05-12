@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:articocean",
+  "features": "minebound:slush",
+  "step": "underground_ores"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/broken_radio_desk",
+  "textures": {
+    "all": "minebound:blocks/radio_cabinet",
+    "particle": "minebound:blocks/radio_cabinet",
+    "0": "minebound:blocks/radio_cabinet"
+  },
+  "render_type": "solid"
+}

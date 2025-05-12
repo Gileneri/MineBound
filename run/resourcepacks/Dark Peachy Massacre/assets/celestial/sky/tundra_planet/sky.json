@@ -1,0 +1,73 @@
+{
+	"sky_objects": [
+		"tundra_atm",
+		"space",
+		"nebula",
+		"tundra_dusk",
+		"tundra_morning",
+		"clear_atm_night",
+		"clear_atm_night_rain",
+		"space_sun",
+		"yellow_sun"
+		//"artic_planet_horizon",
+		//"artic_planet_morning",
+		//"artic_planet_midday",
+		//"artic_planet_dusk",
+		//"artic_planet_night",
+		//"artic_storm_clouds",
+		//"artic_planet_day_rain",
+		//"artic_storm_clouds",
+		//"artic_clouds3",
+		//"artic_clouds2",
+		//"artic_clouds",
+		//"asteroids",
+		//"space_junk",
+		//"asteroids2",
+		//"asteroids3",
+		//"asteroids1"
+		//"asteroids4"
+		
+	],
+	"environment": {
+		"sky_color": {
+			"update_frequency": 0,
+			"base_color": "#ffffff",
+			"colors": [{
+				"color": "#ffffff",
+				"alpha": " - #skyDarknessHigher"
+			}]
+		},
+		"clouds" : {
+			"height": "-2000",
+			"color": "#000000"
+		},
+		"void_culling_level": "-100",
+		"fog_color": {
+			"update_frequency": 0,
+			"base_color": "#ffffff",
+			"colors": [{
+				"color": "#ffffff",
+				"alpha": "((#skyDarknessHigher) * #rainGradient) * (1 - #twilightAlpha)"
+			},
+			{
+			 "color": "#ffffff",
+			 "alpha": "(1 - #rainGradient) * ( 1 - #twilightAlpha)"
+			},
+			{
+			 "color": "#ffffff",
+			 "alpha": "(1 - #rainGradient) * #twilightAlpha"
+			},
+			{
+			 "color": "#ffffff",
+			 "alpha": "(#yPos < 0)"
+			}]
+		},
+		"fog":{
+			"has_thick_fog": false,
+			"fog_start": "64",
+			"fog_end": "128"
+		},
+		"twilight_alpha": "(- #skyDarknessHigher) * ( 1 - #rainGradient)",
+		"twilight_color" : "#ffffff"
+	}
+}

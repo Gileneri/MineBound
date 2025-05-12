@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/wrecked_chair",
+  "textures": {
+    "all": "minebound:blocks/old_chair",
+    "particle": "minebound:blocks/old_chair",
+    "0": "minebound:blocks/old_chair"
+  },
+  "render_type": "solid"
+}

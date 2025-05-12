@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/signpole",
+  "textures": {
+    "all": "minebound:blocks/singpole",
+    "particle": "minebound:blocks/singpole",
+    "0": "minebound:blocks/singpole"
+  },
+  "render_type": "solid"
+}

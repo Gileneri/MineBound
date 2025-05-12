@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_noside",
+  "textures": {
+    "pane": "minebound:blocks/chain_link"
+  },
+  "render_type": "cutout_mipped"
+}

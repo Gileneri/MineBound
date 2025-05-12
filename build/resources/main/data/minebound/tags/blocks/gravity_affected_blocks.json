@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minebound:slush",
+    "minebound:coarsegravel",
+    "minebound:loosesilt",
+    "minebound:packed_bones",
+    "minebound:treasure_hoard",
+    "minebound:ash",
+    "minebound:slime_glob",
+    "minebound:pile_of_books",
+    "minebound:waste",
+    "minebound:pile_of_eyes",
+    "minebound:stonerubble",
+    "minebound:jellyblob",
+    "minebound:junkpile"
+  ]
+}

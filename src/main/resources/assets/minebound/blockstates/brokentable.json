@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/brokentable"
+    },
+    "facing=east": {
+      "model": "minebound:block/brokentable",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/brokentable",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/brokentable",
+      "y": 270
+    }
+  }
+}

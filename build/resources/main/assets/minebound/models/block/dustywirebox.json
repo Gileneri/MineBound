@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/dusty_wire_box",
+  "textures": {
+    "all": "minebound:blocks/dusty_wire_box",
+    "particle": "minebound:blocks/dusty_wire_box",
+    "0": "minebound:blocks/dusty_wire_box"
+  },
+  "render_type": "solid"
+}

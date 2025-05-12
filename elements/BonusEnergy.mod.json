@@ -1,0 +1,23 @@
+{
+  "_fv": 39,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Bonus Energy",
+    "icon": "status_energy_boost.png",
+    "color": {
+      "value": -6684826,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "BonusEnergyEffectStartedapplied"
+    },
+    "onExpired": {
+      "name": "BonusEnergyEffectExpires"
+    }
+  }
+}

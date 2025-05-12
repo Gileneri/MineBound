@@ -1,0 +1,26 @@
+{
+  "_fv": 39,
+  "_type": "structure",
+  "definition": {
+    "structure": "skyscraper2",
+    "randomlyRotateStructure": false,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 0,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": -15,
+    "spawnZOffset": -23,
+    "spawnWorldTypes": [
+      "CUSTOM:DecayedPlanet"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:DecayedBiome"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

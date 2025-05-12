@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/rusty_table",
+  "textures": {
+    "all": "minebound:blocks/rustedold_table",
+    "particle": "minebound:blocks/rustedold_table",
+    "0": "minebound:blocks/rustedtable"
+  },
+  "render_type": "solid"
+}

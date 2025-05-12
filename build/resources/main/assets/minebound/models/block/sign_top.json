@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/signtop",
+  "textures": {
+    "all": "minebound:blocks/signtop",
+    "particle": "minebound:blocks/signtop",
+    "0": "minebound:blocks/signtop"
+  },
+  "render_type": "solid"
+}

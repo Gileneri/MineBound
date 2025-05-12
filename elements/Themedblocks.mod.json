@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Themed blocks",
+    "icon": {
+      "value": "CUSTOM:Grayplatedmetal"
+    },
+    "showSearch": false
+  }
+}

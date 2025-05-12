@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/largebrokenmirror"
+    },
+    "facing=east": {
+      "model": "minebound:block/largebrokenmirror",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/largebrokenmirror",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/largebrokenmirror",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/sign_top"
+    },
+    "facing=east": {
+      "model": "minebound:block/sign_top",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/sign_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/sign_top",
+      "y": 270
+    }
+  }
+}

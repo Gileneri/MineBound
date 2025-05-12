@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "minebound:block/toxicwastebarrel",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minebound:block/toxicwastebarrel"
+    },
+    "axis=z": {
+      "model": "minebound:block/toxicwastebarrel",
+      "x": 90
+    }
+  }
+}

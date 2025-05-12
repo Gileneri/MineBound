@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minebound:blocks/charred_metal_plates",
+    "particle": "minebound:blocks/charred_metal_plates"
+  },
+  "render_type": "solid"
+}

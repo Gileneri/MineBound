@@ -1,0 +1,13 @@
+{
+	"texture": "celestial:sky/toxicoceanplanet/objects/yellow_sun.png",
+	"display": {
+		"scale": "40",
+		"distance": "100"
+	},
+	"rotation": {
+		"degrees_x": "#skyAngle + 90"
+	},
+	"properties": {
+		"alpha": "((1 - #skyDarknessLower) * #dayLight) * #rainSun"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:decayed_biome",
+  "features": "minebound:ruined_shop",
+  "step": "surface_structures"
+}

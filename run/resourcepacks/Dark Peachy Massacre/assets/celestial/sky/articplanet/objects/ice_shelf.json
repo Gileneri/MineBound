@@ -1,0 +1,58 @@
+{
+	"type": "skybox",
+	"skybox": {
+		"texture": "celestial:sky/articplanet/objects/ice_shelf_bottom.png",
+		"texture_width": "1024",
+		"texture_height": "1024",
+		"sides": {
+			"0": {
+				"uv_x": 0,
+				"uv_y": 0,
+				"uv_width": 1024,
+				"uv_height": 1024
+			},
+			"1": {
+				"texture": "celestial:sky/articplanet/objects/air.png",
+				"uv_x": 0,
+				"uv_y": 0,
+				"uv_width": 1024,
+				"uv_height": 1024
+			},
+			"2": {
+				"texture": "celestial:sky/articplanet/objects/air.png",
+				"uv_x": 0,
+				"uv_y": 0,
+				"uv_width": 1024,
+				"uv_height": 1024
+			},
+			"3": {
+				"texture": "celestial:sky/articplanet/objects/air.png",
+				"uv_x": 0,
+				"uv_y": 0,
+				"uv_width": 1024,
+				"uv_height": 1024
+			},
+			"4": {
+				"texture": "celestial:sky/articplanet/objects/air.png",
+				"uv_x": 0,
+				"uv_y": 0,
+				"uv_width": 1024,
+				"uv_height": 1024
+			},
+			"5": {
+				"texture": "celestial:sky/articplanet/objects/island_sketch.png",
+				"uv_x": 0,
+				"uv_y": 0,
+				"uv_width": 1024,
+				"uv_height": 1024
+			}
+		}
+	},
+	"properties": {
+		"is_solid": true,
+		"red": "(#dayLight)M0.15",
+		"green": "(#dayLight)M0.15",
+		"blue": "(#dayLight)M0.15",
+		"alpha": "1 - #skyDarknessHigher"
+	}
+}

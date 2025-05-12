@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/wrecked_control_panel",
+  "textures": {
+    "all": "minebound:blocks/wrecked_panel",
+    "particle": "minebound:blocks/wrecked_panel",
+    "0": "minebound:blocks/wrecked_panel"
+  },
+  "render_type": "solid"
+}

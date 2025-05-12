@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_glass_pane_post",
+  "textures": {
+    "edge": "minebound:blocks/chain_link",
+    "pane": "minebound:blocks/chain_link"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/pipe_fence",
+  "textures": {
+    "all": "minebound:blocks/pipe_fence",
+    "particle": "minebound:blocks/pipe_fence",
+    "0": "minebound:blocks/pipe_fence"
+  },
+  "render_type": "solid"
+}

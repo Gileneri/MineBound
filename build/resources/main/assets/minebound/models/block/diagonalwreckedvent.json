@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/diagonal_wrecked_vent",
+  "textures": {
+    "all": "minebound:blocks/diagonal_wrecked_vent",
+    "particle": "minebound:blocks/diagonal_wrecked_vent",
+    "0": "minebound:blocks/diagonal_wrecked_vent"
+  },
+  "render_type": "solid"
+}

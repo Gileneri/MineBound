@@ -1,0 +1,55 @@
+{
+	"type": "skybox",
+	"skybox": {
+		"texture": "celestial:sky/oceanic_planet/objects/ocean_bottom_night.png",
+		"texture_width": "768",
+		"texture_height": "768",
+		"sides": {
+			"0": {
+				"uv_x": 0,
+				"uv_y": 0,
+				"uv_width": 768,
+				"uv_height": 768
+			},
+			"1": {
+				"texture": "celestial:sky/oceanic_planet/objects/ocean_side_night_north.png",
+				"uv_x": 0,
+				"uv_y": 0,
+				"uv_width": 768,
+				"uv_height": 768
+			},
+			"2": {
+				"texture": "celestial:sky/oceanic_planet/objects/ocean_side_night_south.png",
+				"uv_x": 0,
+				"uv_y": 0,
+				"uv_width": 768,
+				"uv_height": 768
+			},
+			"3": {
+				"texture": "celestial:sky/oceanic_planet/objects/ocean_top_night.png",
+				"uv_x": 0,
+				"uv_y": 0,
+				"uv_width": 768,
+				"uv_height": 768
+			},
+			"4": {
+				"texture": "celestial:sky/oceanic_planet/objects/ocean_side_night_east.png",
+				"uv_x": 0,
+				"uv_y": 0,
+				"uv_width": 768,
+				"uv_height": 768
+			},
+			"5": {
+				"texture": "celestial:sky/oceanic_planet/objects/ocean_side_night_west.png",
+				"uv_x": 0,
+				"uv_y": 0,
+				"uv_width": 768,
+				"uv_height": 768
+			}
+		}
+	},
+	"properties": {
+		"is_solid": true,
+		"alpha": "((1 - #dayLight) * ( 1 - #skyDarknessHigher)) *  (1 - #rainGradient) "
+	}
+}

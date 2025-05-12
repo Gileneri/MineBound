@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/big_broken_drawer",
+  "textures": {
+    "all": "minebound:blocks/big_broken_drawer",
+    "particle": "minebound:blocks/big_broken_drawer",
+    "0": "minebound:blocks/big_broken_drawer"
+  },
+  "render_type": "solid"
+}

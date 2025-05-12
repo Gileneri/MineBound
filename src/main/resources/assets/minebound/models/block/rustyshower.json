@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/rusty_shower",
+  "textures": {
+    "all": "minebound:blocks/rusty_shower",
+    "particle": "minebound:blocks/rusty_shower",
+    "0": "minebound:blocks/rusty_shower"
+  },
+  "render_type": "translucent"
+}
