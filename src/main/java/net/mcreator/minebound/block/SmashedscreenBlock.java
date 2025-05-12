@@ -8,6 +8,7 @@ import net.minecraftforge.common.util.ForgeSoundType;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.Fluids;
@@ -70,10 +71,10 @@ public class SmashedscreenBlock extends Block implements SimpleWaterloggedBlock 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-8, 0, 0, 24, 24, 3);
-			case NORTH -> box(-8, 0, 13, 24, 24, 16);
-			case EAST -> box(0, 0, -8, 3, 24, 24);
-			case WEST -> box(13, 0, -8, 16, 24, 24);
+			default -> Shapes.join(box(-7, 1, 1, 23, 23, 3), Shapes.or(box(10, 19, 1, 23, 23, 3), box(-7, 1, 1, 6, 6, 3)), BooleanOp.ONLY_FIRST);
+			case NORTH -> Shapes.join(box(-7, 1, 13, 23, 23, 15), Shapes.or(box(-7, 19, 13, 6, 23, 15), box(10, 1, 13, 23, 6, 15)), BooleanOp.ONLY_FIRST);
+			case EAST -> Shapes.join(box(1, 1, -7, 3, 23, 23), Shapes.or(box(1, 19, -7, 3, 23, 6), box(1, 1, 10, 3, 6, 23)), BooleanOp.ONLY_FIRST);
+			case WEST -> Shapes.join(box(13, 1, -7, 15, 23, 23), Shapes.or(box(13, 19, 10, 15, 23, 23), box(13, 1, -7, 15, 6, 6)), BooleanOp.ONLY_FIRST);
 		};
 	}
 

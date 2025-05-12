@@ -58,10 +58,10 @@ public class BrokenfridgeBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, 0, 16, 31, 16);
-			case NORTH -> box(0, 0, 0, 16, 31, 16);
-			case EAST -> box(0, 0, 0, 16, 31, 16);
-			case WEST -> box(0, 0, 0, 16, 31, 16);
+			default -> box(1, 0, 0, 15, 31, 15);
+			case NORTH -> box(1, 0, 1, 15, 31, 16);
+			case EAST -> box(0, 0, 1, 15, 31, 15);
+			case WEST -> box(1, 0, 1, 16, 31, 15);
 		};
 	}
 

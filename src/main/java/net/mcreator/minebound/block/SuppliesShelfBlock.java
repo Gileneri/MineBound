@@ -8,6 +8,7 @@ import net.minecraftforge.common.util.ForgeSoundType;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -58,10 +59,10 @@ public class SuppliesShelfBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-11, -16, 1, 27, 28, 15);
-			case NORTH -> box(-11, -16, 1, 27, 28, 15);
-			case EAST -> box(1, -16, -11, 15, 28, 27);
-			case WEST -> box(1, -16, -11, 15, 28, 27);
+			default -> Shapes.join(box(-11, -16, 2, 27, 28, 14), box(-9, 23, 2, 25, 28, 14), BooleanOp.ONLY_FIRST);
+			case NORTH -> Shapes.join(box(-11, -16, 2, 27, 28, 14), box(-9, 23, 2, 25, 28, 14), BooleanOp.ONLY_FIRST);
+			case EAST -> Shapes.join(box(2, -16, -11, 14, 28, 27), box(2, 23, -9, 14, 28, 25), BooleanOp.ONLY_FIRST);
+			case WEST -> Shapes.join(box(2, -16, -11, 14, 28, 27), box(2, 23, -9, 14, 28, 25), BooleanOp.ONLY_FIRST);
 		};
 	}
 

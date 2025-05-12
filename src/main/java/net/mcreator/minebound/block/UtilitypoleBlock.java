@@ -8,6 +8,7 @@ import net.minecraftforge.common.util.ForgeSoundType;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -58,10 +59,10 @@ public class UtilitypoleBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, -13, 16, 26, 30);
-			case NORTH -> box(0, 0, -14, 16, 26, 29);
-			case EAST -> box(-13, 0, 0, 30, 26, 16);
-			case WEST -> box(-14, 0, 0, 29, 26, 16);
+			default -> Shapes.join(box(4, 0, -13, 12, 26, 29), Shapes.or(box(4, 18, -13, 12, 26, 4), box(4, 18, 12, 12, 26, 29)), BooleanOp.ONLY_FIRST);
+			case NORTH -> Shapes.join(box(4, 0, -13, 12, 26, 29), Shapes.or(box(4, 18, 12, 12, 26, 29), box(4, 18, -13, 12, 26, 4)), BooleanOp.ONLY_FIRST);
+			case EAST -> Shapes.join(box(-13, 0, 4, 29, 26, 12), Shapes.or(box(-13, 18, 4, 4, 26, 12), box(12, 18, 4, 29, 26, 12)), BooleanOp.ONLY_FIRST);
+			case WEST -> Shapes.join(box(-13, 0, 4, 29, 26, 12), Shapes.or(box(12, 18, 4, 29, 26, 12), box(-13, 18, 4, 4, 26, 12)), BooleanOp.ONLY_FIRST);
 		};
 	}
 

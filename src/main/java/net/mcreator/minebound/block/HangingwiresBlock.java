@@ -64,6 +64,16 @@ public class HangingwiresBlock extends Block implements SimpleWaterloggedBlock {
 	}
 
 	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return switch (state.getValue(FACING)) {
+			default -> box(2, 10, 4, 15, 16, 12);
+			case NORTH -> box(1, 10, 4, 14, 16, 12);
+			case EAST -> box(4, 10, 1, 12, 16, 14);
+			case WEST -> box(4, 10, 2, 12, 16, 15);
+		};
+	}
+
+	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		builder.add(FACING, WATERLOGGED);
 	}

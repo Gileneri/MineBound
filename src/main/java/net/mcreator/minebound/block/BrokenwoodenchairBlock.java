@@ -8,6 +8,7 @@ import net.minecraftforge.common.util.ForgeSoundType;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -58,10 +59,10 @@ public class BrokenwoodenchairBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(5, 0, 3, 12, 24, 12);
-			case NORTH -> box(4, 0, 4, 11, 24, 13);
-			case EAST -> box(3, 0, 4, 12, 24, 11);
-			case WEST -> box(4, 0, 5, 13, 24, 12);
+			default -> Shapes.join(box(5, 0, 3, 12, 24, 12), box(5, 9, 6, 12, 24, 12), BooleanOp.ONLY_FIRST);
+			case NORTH -> Shapes.join(box(4, 0, 4, 11, 24, 13), box(4, 9, 4, 11, 24, 10), BooleanOp.ONLY_FIRST);
+			case EAST -> Shapes.join(box(3, 0, 4, 12, 24, 11), box(6, 9, 4, 12, 24, 11), BooleanOp.ONLY_FIRST);
+			case WEST -> Shapes.join(box(4, 0, 5, 13, 24, 12), box(4, 9, 5, 10, 24, 12), BooleanOp.ONLY_FIRST);
 		};
 	}
 

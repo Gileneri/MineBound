@@ -4,6 +4,7 @@ package net.mcreator.minebound.block;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -50,10 +51,10 @@ public class WreckedconsoleBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-4, 0, 2, 20, 23, 12);
-			case NORTH -> box(-4, 0, 4, 20, 23, 14);
-			case EAST -> box(2, 0, -4, 12, 23, 20);
-			case WEST -> box(4, 0, -4, 14, 23, 20);
+			default -> Shapes.join(box(-4, 0, 2, 20, 23, 13), box(-4, 14, 10, 20, 23, 13), BooleanOp.ONLY_FIRST);
+			case NORTH -> Shapes.join(box(-4, 0, 3, 20, 23, 14), box(-4, 14, 3, 20, 23, 6), BooleanOp.ONLY_FIRST);
+			case EAST -> Shapes.join(box(2, 0, -4, 13, 23, 20), box(10, 14, -4, 13, 23, 20), BooleanOp.ONLY_FIRST);
+			case WEST -> Shapes.join(box(3, 0, -4, 14, 23, 20), box(3, 14, -4, 6, 23, 20), BooleanOp.ONLY_FIRST);
 		};
 	}
 

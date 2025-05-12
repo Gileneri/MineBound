@@ -57,7 +57,7 @@ public class SignPoleBlock extends Block implements SimpleWaterloggedBlock {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return box(0, 0, 0, 16, 26, 16);
+		return box(7, 0, 7, 9, 26, 9);
 	}
 
 	@Override

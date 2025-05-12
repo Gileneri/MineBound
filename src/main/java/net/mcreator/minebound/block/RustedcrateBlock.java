@@ -64,10 +64,10 @@ public class RustedcrateBlock extends Block implements SimpleWaterloggedBlock {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-3, 0, -5, 19, 24, 14);
-			case NORTH -> box(-3, 0, 2, 19, 24, 21);
-			case EAST -> box(-5, 0, -3, 14, 24, 19);
-			case WEST -> box(2, 0, -3, 21, 24, 19);
+			default -> box(-2, 0, -2, 19, 24, 19);
+			case NORTH -> box(-3, 0, -3, 18, 24, 18);
+			case EAST -> box(-2, 0, -3, 19, 24, 18);
+			case WEST -> box(-3, 0, -2, 18, 24, 19);
 		};
 	}
 

@@ -24,13 +24,31 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": -8.0,
-        "my": 0.0,
+        "mx": -7.0,
+        "my": 1.0,
         "mz": 13.0,
-        "Mx": 24.0,
-        "My": 24.0,
-        "Mz": 16.0,
+        "Mx": 23.0,
+        "My": 23.0,
+        "Mz": 15.0,
         "subtract": false
+      },
+      {
+        "mx": -7.0,
+        "my": 19.0,
+        "mz": 13.0,
+        "Mx": 6.0,
+        "My": 23.0,
+        "Mz": 15.0,
+        "subtract": true
+      },
+      {
+        "mx": 10.0,
+        "my": 1.0,
+        "mz": 13.0,
+        "Mx": 23.0,
+        "My": 6.0,
+        "Mz": 15.0,
+        "subtract": true
       }
     ],
     "name": "Wrecked Monitor",

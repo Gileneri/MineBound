@@ -65,10 +65,10 @@ public class BrokencounterBlock extends Block implements SimpleWaterloggedBlock 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-8, 0, 0, 24, 16, 9);
-			case NORTH -> box(-8, 0, 7, 24, 16, 16);
-			case EAST -> box(0, 0, -8, 9, 16, 24);
-			case WEST -> box(7, 0, -8, 16, 16, 24);
+			default -> box(-7, 0, 1, 23, 15, 8);
+			case NORTH -> box(-7, 0, 8, 23, 15, 15);
+			case EAST -> box(1, 0, -7, 8, 15, 23);
+			case WEST -> box(8, 0, -7, 15, 15, 23);
 		};
 	}
 

@@ -71,10 +71,10 @@ public class FlickeringlightbulbBlock extends Block implements SimpleWaterlogged
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(6, 0, 6, 9, 15, 9);
-			case NORTH -> box(7, 0, 7, 10, 15, 10);
-			case EAST -> box(6, 0, 7, 9, 15, 10);
-			case WEST -> box(7, 0, 6, 10, 15, 9);
+			default -> box(6, 0, 6, 10, 16, 10);
+			case NORTH -> box(6, 0, 6, 10, 16, 10);
+			case EAST -> box(6, 0, 6, 10, 16, 10);
+			case WEST -> box(6, 0, 6, 10, 16, 10);
 		};
 	}
 

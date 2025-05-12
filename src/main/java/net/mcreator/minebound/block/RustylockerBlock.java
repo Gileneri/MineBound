@@ -58,10 +58,10 @@ public class RustylockerBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, 0, 16, 31, 16);
-			case NORTH -> box(0, 0, 0, 16, 31, 16);
-			case EAST -> box(0, 0, 0, 16, 31, 16);
-			case WEST -> box(0, 0, 0, 16, 31, 16);
+			default -> box(2, 0, 1, 15, 31, 14);
+			case NORTH -> box(1, 0, 2, 14, 31, 15);
+			case EAST -> box(1, 0, 1, 14, 31, 14);
+			case WEST -> box(2, 0, 2, 15, 31, 15);
 		};
 	}
 

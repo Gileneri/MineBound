@@ -8,6 +8,7 @@ import net.minecraftforge.common.util.ForgeSoundType;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.Fluids;
@@ -65,10 +66,10 @@ public class BasictoiletBlock extends Block implements SimpleWaterloggedBlock {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(3, 0, 0, 12, 22, 15);
-			case NORTH -> box(4, 0, 1, 13, 22, 16);
-			case EAST -> box(0, 0, 4, 15, 22, 13);
-			case WEST -> box(1, 0, 3, 16, 22, 12);
+			default -> Shapes.join(box(3, 0, 0, 12, 22, 14), box(3, 10, 6, 12, 22, 14), BooleanOp.ONLY_FIRST);
+			case NORTH -> Shapes.join(box(4, 0, 2, 13, 22, 16), box(4, 10, 2, 13, 22, 10), BooleanOp.ONLY_FIRST);
+			case EAST -> Shapes.join(box(0, 0, 4, 14, 22, 13), box(6, 10, 4, 14, 22, 13), BooleanOp.ONLY_FIRST);
+			case WEST -> Shapes.join(box(2, 0, 3, 16, 22, 12), box(2, 10, 3, 10, 22, 12), BooleanOp.ONLY_FIRST);
 		};
 	}
 

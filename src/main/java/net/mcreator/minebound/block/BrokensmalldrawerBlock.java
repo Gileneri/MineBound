@@ -63,6 +63,16 @@ public class BrokensmalldrawerBlock extends Block implements SimpleWaterloggedBl
 	}
 
 	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return switch (state.getValue(FACING)) {
+			default -> box(3, 0, 0, 14, 15, 6);
+			case NORTH -> box(2, 0, 10, 13, 15, 16);
+			case EAST -> box(0, 0, 2, 6, 15, 13);
+			case WEST -> box(10, 0, 3, 16, 15, 14);
+		};
+	}
+
+	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		builder.add(FACING, WATERLOGGED);
 	}

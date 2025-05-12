@@ -63,10 +63,10 @@ public class BrokeneletricboxBlock extends Block implements SimpleWaterloggedBlo
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-3, 0, 0, 16, 23, 16);
-			case NORTH -> box(0, 0, 0, 19, 23, 16);
-			case EAST -> box(0, 0, 0, 16, 23, 19);
-			case WEST -> box(0, 0, -3, 16, 23, 16);
+			default -> box(-2, 0, 5, 18, 23, 11);
+			case NORTH -> box(-2, 0, 5, 18, 23, 11);
+			case EAST -> box(5, 0, -2, 11, 23, 18);
+			case WEST -> box(5, 0, -2, 11, 23, 18);
 		};
 	}
 

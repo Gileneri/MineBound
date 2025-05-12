@@ -31,6 +31,15 @@
         "My": 23.0,
         "Mz": 15.0,
         "subtract": false
+      },
+      {
+        "mx": -3.0,
+        "my": 14.0,
+        "mz": 2.0,
+        "Mx": 19.0,
+        "My": 23.0,
+        "Mz": 8.0,
+        "subtract": true
       }
     ],
     "name": "Wrecked Console",

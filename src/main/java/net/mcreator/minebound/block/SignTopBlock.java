@@ -60,10 +60,10 @@ public class SignTopBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, 0, 16, 23, 16);
-			case NORTH -> box(0, 0, 0, 16, 23, 16);
-			case EAST -> box(0, 0, 0, 16, 23, 16);
-			case WEST -> box(0, 0, 0, 16, 23, 16);
+			default -> box(-13, -7, 7, 8, 15, 10);
+			case NORTH -> box(8, -7, 6, 29, 15, 9);
+			case EAST -> box(7, -7, 8, 10, 15, 29);
+			case WEST -> box(6, -7, -13, 9, 15, 8);
 		};
 	}
 

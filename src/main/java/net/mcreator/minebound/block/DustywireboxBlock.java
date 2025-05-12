@@ -60,10 +60,10 @@ public class DustywireboxBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, 0, 16, 27, 16);
-			case NORTH -> box(0, 0, 0, 16, 27, 16);
-			case EAST -> box(0, 0, 0, 16, 27, 16);
-			case WEST -> box(0, 0, 0, 16, 27, 16);
+			default -> box(0, 0, 2, 16, 27, 14);
+			case NORTH -> box(0, 0, 2, 16, 27, 14);
+			case EAST -> box(2, 0, 0, 14, 27, 16);
+			case WEST -> box(2, 0, 0, 14, 27, 16);
 		};
 	}
 
