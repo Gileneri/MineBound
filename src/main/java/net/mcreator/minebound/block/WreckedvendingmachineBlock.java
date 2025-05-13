@@ -58,10 +58,10 @@ public class WreckedvendingmachineBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, -2, 16, 31, 16);
-			case NORTH -> box(0, 0, 0, 16, 31, 18);
-			case EAST -> box(-2, 0, 0, 16, 31, 16);
-			case WEST -> box(0, 0, 0, 18, 31, 16);
+			default -> box(0, 0, -2, 16, 31, 18);
+			case NORTH -> box(0, 0, -2, 16, 31, 18);
+			case EAST -> box(-2, 0, 0, 18, 31, 16);
+			case WEST -> box(-2, 0, 0, 18, 31, 16);
 		};
 	}
 

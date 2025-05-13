@@ -58,10 +58,10 @@ public class BrokentrafficlightsBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(0, -11, 0, 16, 6, 16);
-			case NORTH -> box(0, -11, 0, 16, 6, 16);
-			case EAST -> box(0, -11, 0, 16, 6, 16);
-			case WEST -> box(0, -11, 0, 16, 6, 16);
+			default -> box(7, -11, 4, 16, 6, 12);
+			case NORTH -> box(0, -11, 4, 9, 6, 12);
+			case EAST -> box(4, -11, 0, 12, 6, 9);
+			case WEST -> box(4, -11, 7, 12, 6, 16);
 		};
 	}
 

@@ -56,10 +56,10 @@ public class DumpsterBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-10, 0, 0, 29, 29, 16);
-			case NORTH -> box(-13, 0, 0, 26, 29, 16);
-			case EAST -> box(0, 0, -13, 16, 29, 26);
-			case WEST -> box(0, 0, -10, 16, 29, 29);
+			default -> box(-12, 0, 0, 29, 29, 16);
+			case NORTH -> box(-13, 0, 0, 28, 29, 16);
+			case EAST -> box(0, 0, -13, 16, 29, 28);
+			case WEST -> box(0, 0, -12, 16, 29, 29);
 		};
 	}
 

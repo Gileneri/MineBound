@@ -71,10 +71,10 @@ public class ScorchedtiresBlock extends Block implements SimpleWaterloggedBlock 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-1, 0, -1, 16, 31, 16);
-			case NORTH -> box(0, 0, 0, 17, 31, 17);
-			case EAST -> box(-1, 0, 0, 16, 31, 17);
-			case WEST -> box(0, 0, -1, 17, 31, 16);
+			default -> Shapes.or(box(0, 0, 0, 16, 20, 16), box(0, 20, 5, 16, 29, 9));
+			case NORTH -> Shapes.or(box(0, 0, 0, 16, 20, 16), box(0, 20, 7, 16, 29, 11));
+			case EAST -> Shapes.or(box(0, 0, 0, 16, 20, 16), box(5, 20, 0, 9, 29, 16));
+			case WEST -> Shapes.or(box(0, 0, 0, 16, 20, 16), box(7, 20, 0, 11, 29, 16));
 		};
 	}
 

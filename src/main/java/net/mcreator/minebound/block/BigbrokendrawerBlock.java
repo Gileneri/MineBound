@@ -65,10 +65,10 @@ public class BigbrokendrawerBlock extends Block implements SimpleWaterloggedBloc
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(3, 0, 0, 16, 22, 5);
-			case NORTH -> box(0, 0, 11, 13, 22, 16);
-			case EAST -> box(0, 0, 0, 5, 22, 13);
-			case WEST -> box(11, 0, 3, 16, 22, 16);
+			default -> box(3, 0, 0, 14, 23, 6);
+			case NORTH -> box(2, 0, 10, 13, 23, 16);
+			case EAST -> box(0, 0, 2, 6, 23, 13);
+			case WEST -> box(10, 0, 3, 16, 23, 14);
 		};
 	}
 

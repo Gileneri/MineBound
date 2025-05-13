@@ -31,6 +31,15 @@
         "My": 16.0,
         "Mz": 32.0,
         "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 9.0,
+        "mz": -5.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 29.0,
+        "subtract": true
       }
     ],
     "name": "Wrecked Bed",

@@ -6,6 +6,7 @@ import net.minecraftforge.common.util.ForgeSoundType;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.Fluids;
@@ -63,10 +64,10 @@ public class ScorchedBenchBlock extends Block implements SimpleWaterloggedBlock 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-6, 0, -2, 23, 16, 16);
-			case NORTH -> box(-7, 0, 0, 22, 16, 18);
-			case EAST -> box(-2, 0, -7, 16, 16, 22);
-			case WEST -> box(0, 0, -6, 18, 16, 23);
+			default -> Shapes.join(box(-5, 0, -1, 22, 19, 15), box(-5, 9, 4, 22, 19, 15), BooleanOp.ONLY_FIRST);
+			case NORTH -> Shapes.join(box(-6, 0, 1, 21, 19, 17), box(-6, 9, 1, 21, 19, 12), BooleanOp.ONLY_FIRST);
+			case EAST -> Shapes.join(box(-1, 0, -6, 15, 19, 21), box(4, 9, -6, 15, 19, 21), BooleanOp.ONLY_FIRST);
+			case WEST -> Shapes.join(box(1, 0, -5, 17, 19, 22), box(1, 9, -5, 12, 19, 22), BooleanOp.ONLY_FIRST);
 		};
 	}
 

@@ -65,10 +65,10 @@ public class BrokentelevisionsetBlock extends Block implements SimpleWaterlogged
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-1, 0, 4, 17, 30, 11);
-			case NORTH -> box(-1, 0, 5, 17, 30, 12);
-			case EAST -> box(4, 0, -1, 11, 30, 17);
-			case WEST -> box(5, 0, -1, 12, 30, 17);
+			default -> box(-1, 0, 4, 17, 25, 11);
+			case NORTH -> box(-1, 0, 5, 17, 25, 12);
+			case EAST -> box(4, 0, -1, 11, 25, 17);
+			case WEST -> box(5, 0, -1, 12, 25, 17);
 		};
 	}
 

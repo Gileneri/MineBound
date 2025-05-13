@@ -6,6 +6,7 @@ import net.minecraftforge.common.util.ForgeSoundType;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -56,10 +57,10 @@ public class WreckedcontrolpanelBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-3, 0, 1, 19, 23, 14);
-			case NORTH -> box(-3, 0, 2, 19, 23, 15);
-			case EAST -> box(1, 0, -3, 14, 23, 19);
-			case WEST -> box(2, 0, -3, 15, 23, 19);
+			default -> Shapes.join(box(-3, 0, 1, 19, 23, 14), box(-3, 14, 8, 19, 23, 14), BooleanOp.ONLY_FIRST);
+			case NORTH -> Shapes.join(box(-3, 0, 2, 19, 23, 15), box(-3, 14, 2, 19, 23, 8), BooleanOp.ONLY_FIRST);
+			case EAST -> Shapes.join(box(1, 0, -3, 14, 23, 19), box(8, 14, -3, 14, 23, 19), BooleanOp.ONLY_FIRST);
+			case WEST -> Shapes.join(box(2, 0, -3, 15, 23, 19), box(2, 14, -3, 8, 23, 19), BooleanOp.ONLY_FIRST);
 		};
 	}
 

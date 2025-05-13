@@ -65,10 +65,10 @@ public class BrokentrafficpoleBlock extends Block implements SimpleWaterloggedBl
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(0, -16, 0, 16, 26, 16);
-			case NORTH -> box(0, -16, 0, 16, 26, 16);
-			case EAST -> box(0, -16, 0, 16, 26, 16);
-			case WEST -> box(0, -16, 0, 16, 26, 16);
+			default -> box(7, -16, 4, 16, 21, 12);
+			case NORTH -> box(0, -16, 4, 9, 21, 12);
+			case EAST -> box(4, -16, 0, 12, 21, 9);
+			case WEST -> box(4, -16, 7, 12, 21, 16);
 		};
 	}
 

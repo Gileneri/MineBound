@@ -8,6 +8,7 @@ import net.minecraftforge.common.util.ForgeSoundType;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -58,10 +59,10 @@ public class PipefenceBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, 6, 16, 16, 10);
-			case NORTH -> box(0, 0, 6, 16, 16, 10);
-			case EAST -> box(6, 0, 0, 10, 16, 16);
-			case WEST -> box(6, 0, 0, 10, 16, 16);
+			default -> Shapes.join(box(0, 0, 7, 16, 16, 9), Shapes.or(box(1, 0, 7, 15, 4, 9), box(1, 6, 7, 15, 13, 9)), BooleanOp.ONLY_FIRST);
+			case NORTH -> Shapes.join(box(0, 0, 7, 16, 16, 9), Shapes.or(box(1, 0, 7, 15, 4, 9), box(1, 6, 7, 15, 13, 9)), BooleanOp.ONLY_FIRST);
+			case EAST -> Shapes.join(box(7, 0, 0, 9, 16, 16), Shapes.or(box(7, 0, 1, 9, 4, 15), box(7, 6, 1, 9, 13, 15)), BooleanOp.ONLY_FIRST);
+			case WEST -> Shapes.join(box(7, 0, 0, 9, 16, 16), Shapes.or(box(7, 0, 1, 9, 4, 15), box(7, 6, 1, 9, 13, 15)), BooleanOp.ONLY_FIRST);
 		};
 	}
 

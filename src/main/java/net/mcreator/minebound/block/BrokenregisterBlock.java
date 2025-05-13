@@ -6,6 +6,7 @@ import net.minecraftforge.common.util.ForgeSoundType;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -56,10 +57,10 @@ public class BrokenregisterBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(4, 0, 4, 13, 14, 13);
-			case NORTH -> box(3, 0, 3, 12, 14, 12);
-			case EAST -> box(4, 0, 3, 13, 14, 12);
-			case WEST -> box(3, 0, 4, 12, 14, 13);
+			default -> Shapes.join(Shapes.or(box(4, 0, 4, 13, 9, 13), box(4, 9, 4, 8, 14, 9)), box(4, 4, 9, 13, 9, 13), BooleanOp.ONLY_FIRST);
+			case NORTH -> Shapes.join(Shapes.or(box(3, 0, 3, 12, 9, 12), box(8, 9, 7, 12, 14, 12)), box(3, 4, 3, 12, 9, 7), BooleanOp.ONLY_FIRST);
+			case EAST -> Shapes.join(Shapes.or(box(4, 0, 3, 13, 9, 12), box(4, 9, 8, 9, 14, 12)), box(9, 4, 3, 13, 9, 12), BooleanOp.ONLY_FIRST);
+			case WEST -> Shapes.join(Shapes.or(box(3, 0, 4, 12, 9, 13), box(7, 9, 4, 12, 14, 8)), box(3, 4, 4, 7, 9, 13), BooleanOp.ONLY_FIRST);
 		};
 	}
 

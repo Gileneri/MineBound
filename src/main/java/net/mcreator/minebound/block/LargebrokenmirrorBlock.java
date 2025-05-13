@@ -65,10 +65,10 @@ public class LargebrokenmirrorBlock extends Block implements SimpleWaterloggedBl
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-32, 0, 0, 32, 32, 2);
-			case NORTH -> box(-16, 0, 14, 48, 32, 16);
-			case EAST -> box(0, 0, -16, 2, 32, 48);
-			case WEST -> box(14, 0, -32, 16, 32, 32);
+			default -> box(-16, 0, 0, 32, 32, 2);
+			case NORTH -> box(-16, 0, 14, 32, 32, 16);
+			case EAST -> box(0, 0, -16, 2, 32, 32);
+			case WEST -> box(14, 0, -16, 16, 32, 32);
 		};
 	}
 

@@ -65,10 +65,10 @@ public class TrashcanBlock extends Block implements SimpleWaterloggedBlock {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(4, 0, 0, 16, 15, 13);
-			case NORTH -> box(0, 0, 3, 12, 15, 16);
-			case EAST -> box(0, 0, 0, 13, 15, 12);
-			case WEST -> box(3, 0, 4, 16, 15, 16);
+			default -> box(4, 0, 1, 15, 15, 12);
+			case NORTH -> box(1, 0, 4, 12, 15, 15);
+			case EAST -> box(1, 0, 1, 12, 15, 12);
+			case WEST -> box(4, 0, 4, 15, 15, 15);
 		};
 	}
 

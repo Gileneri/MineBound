@@ -8,6 +8,7 @@ import net.minecraftforge.common.util.ForgeSoundType;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.Fluids;
@@ -71,10 +72,10 @@ public class RustyshowerBlock extends Block implements SimpleWaterloggedBlock {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(5, 4, 0, 11, 32, 9);
-			case NORTH -> box(5, 4, 7, 11, 32, 16);
-			case EAST -> box(0, 4, 5, 9, 32, 11);
-			case WEST -> box(7, 4, 5, 16, 32, 11);
+			default -> Shapes.join(box(5, -2, 1, 10, 32, 9), box(5, -2, 4, 10, 25, 9), BooleanOp.ONLY_FIRST);
+			case NORTH -> Shapes.join(box(6, -2, 7, 11, 32, 15), box(6, -2, 7, 11, 25, 12), BooleanOp.ONLY_FIRST);
+			case EAST -> Shapes.join(box(1, -2, 6, 9, 32, 11), box(4, -2, 6, 9, 25, 11), BooleanOp.ONLY_FIRST);
+			case WEST -> Shapes.join(box(7, -2, 5, 15, 32, 10), box(7, -2, 5, 12, 25, 10), BooleanOp.ONLY_FIRST);
 		};
 	}
 

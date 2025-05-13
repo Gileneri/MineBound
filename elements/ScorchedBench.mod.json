@@ -24,13 +24,22 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": -7.0,
+        "mx": -6.0,
         "my": 0.0,
-        "mz": 0.0,
-        "Mx": 22.0,
-        "My": 16.0,
-        "Mz": 18.0,
+        "mz": 1.0,
+        "Mx": 21.0,
+        "My": 19.0,
+        "Mz": 17.0,
         "subtract": false
+      },
+      {
+        "mx": -6.0,
+        "my": 9.0,
+        "mz": 1.0,
+        "Mx": 21.0,
+        "My": 19.0,
+        "Mz": 12.0,
+        "subtract": true
       }
     ],
     "name": "Scorched Bench",

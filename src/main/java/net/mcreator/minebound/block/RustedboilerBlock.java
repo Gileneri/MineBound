@@ -56,10 +56,10 @@ public class RustedboilerBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-8, 0, -2, 25, 26, 18);
-			case NORTH -> box(-9, 0, -2, 24, 26, 18);
-			case EAST -> box(-2, 0, -9, 18, 26, 24);
-			case WEST -> box(-2, 0, -8, 18, 26, 25);
+			default -> box(-2, 0, -2, 18, 26, 18);
+			case NORTH -> box(-2, 0, -2, 18, 26, 18);
+			case EAST -> box(-2, 0, -2, 18, 26, 18);
+			case WEST -> box(-2, 0, -2, 18, 26, 18);
 		};
 	}
 

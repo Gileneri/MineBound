@@ -6,6 +6,7 @@ import net.minecraftforge.common.util.ForgeSoundType;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -56,10 +57,10 @@ public class RustedchairBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(4, 0, 1, 12, 23, 13);
-			case NORTH -> box(4, 0, 3, 12, 23, 15);
-			case EAST -> box(1, 0, 4, 13, 23, 12);
-			case WEST -> box(3, 0, 4, 15, 23, 12);
+			default -> Shapes.join(box(4, 0, 2, 12, 23, 12), box(4, 9, 6, 12, 23, 12), BooleanOp.ONLY_FIRST);
+			case NORTH -> Shapes.join(box(4, 0, 4, 12, 23, 14), box(4, 9, 4, 12, 23, 10), BooleanOp.ONLY_FIRST);
+			case EAST -> Shapes.join(box(2, 0, 4, 12, 23, 12), box(6, 9, 4, 12, 23, 12), BooleanOp.ONLY_FIRST);
+			case WEST -> Shapes.join(box(4, 0, 4, 14, 23, 12), box(4, 9, 4, 10, 23, 12), BooleanOp.ONLY_FIRST);
 		};
 	}
 

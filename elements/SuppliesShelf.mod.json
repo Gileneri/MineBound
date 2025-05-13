@@ -26,11 +26,20 @@
       {
         "mx": -11.0,
         "my": -16.0,
-        "mz": 1.0,
+        "mz": 2.0,
         "Mx": 27.0,
         "My": 28.0,
-        "Mz": 15.0,
+        "Mz": 14.0,
         "subtract": false
+      },
+      {
+        "mx": -9.0,
+        "my": 23.0,
+        "mz": 2.0,
+        "Mx": 25.0,
+        "My": 28.0,
+        "Mz": 14.0,
+        "subtract": true
       }
     ],
     "name": "Shelter Shelf",

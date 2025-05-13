@@ -26,11 +26,20 @@
       {
         "mx": -4.0,
         "my": 0.0,
-        "mz": 4.0,
+        "mz": 3.0,
         "Mx": 20.0,
         "My": 23.0,
         "Mz": 14.0,
         "subtract": false
+      },
+      {
+        "mx": -4.0,
+        "my": 14.0,
+        "mz": 3.0,
+        "Mx": 20.0,
+        "My": 23.0,
+        "Mz": 6.0,
+        "subtract": true
       }
     ],
     "name": "Wrecked Computer",

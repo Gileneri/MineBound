@@ -58,10 +58,10 @@ public class RustedwatertankBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-6, -16, 0, 16, 23, 19);
-			case NORTH -> box(0, -16, -3, 22, 23, 16);
-			case EAST -> box(0, -16, 0, 19, 23, 22);
-			case WEST -> box(-3, -16, -6, 16, 23, 16);
+			default -> Shapes.or(box(-3, -16, 0, 16, 23, 19), box(-6, -16, 0, -4, 8, 8));
+			case NORTH -> Shapes.or(box(0, -16, -3, 19, 23, 16), box(20, -16, 8, 22, 8, 16));
+			case EAST -> Shapes.or(box(0, -16, 0, 19, 23, 19), box(0, -16, 20, 8, 8, 22));
+			case WEST -> Shapes.or(box(-3, -16, -3, 16, 23, 16), box(8, -16, -6, 16, 8, -4));
 		};
 	}
 

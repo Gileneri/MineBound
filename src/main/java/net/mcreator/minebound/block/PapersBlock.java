@@ -56,10 +56,10 @@ public class PapersBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-1, 0, 1, 16, 1, 15);
-			case NORTH -> box(0, 0, 1, 17, 1, 15);
-			case EAST -> box(1, 0, 0, 15, 1, 17);
-			case WEST -> box(1, 0, -1, 15, 1, 16);
+			default -> box(2, 0, 2, 14, 1, 14);
+			case NORTH -> box(2, 0, 2, 14, 1, 14);
+			case EAST -> box(2, 0, 2, 14, 1, 14);
+			case WEST -> box(2, 0, 2, 14, 1, 14);
 		};
 	}
 

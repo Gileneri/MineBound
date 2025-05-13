@@ -8,6 +8,7 @@ import net.minecraftforge.common.util.ForgeSoundType;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.Fluids;
@@ -65,10 +66,10 @@ public class OldbedBlock extends Block implements SimpleWaterloggedBlock {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, -16, 16, 16, 24);
-			case NORTH -> box(0, 0, -8, 16, 16, 32);
-			case EAST -> box(-16, 0, 0, 24, 16, 16);
-			case WEST -> box(-8, 0, 0, 32, 16, 16);
+			default -> Shapes.join(box(0, 0, -16, 16, 16, 24), box(0, 9, -13, 16, 16, 21), BooleanOp.ONLY_FIRST);
+			case NORTH -> Shapes.join(box(0, 0, -8, 16, 16, 32), box(0, 9, -5, 16, 16, 29), BooleanOp.ONLY_FIRST);
+			case EAST -> Shapes.join(box(-16, 0, 0, 24, 16, 16), box(-13, 9, 0, 21, 16, 16), BooleanOp.ONLY_FIRST);
+			case WEST -> Shapes.join(box(-8, 0, 0, 32, 16, 16), box(-5, 9, 0, 29, 16, 16), BooleanOp.ONLY_FIRST);
 		};
 	}
 

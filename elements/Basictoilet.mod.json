@@ -26,11 +26,20 @@
       {
         "mx": 4.0,
         "my": 0.0,
-        "mz": 1.0,
+        "mz": 2.0,
         "Mx": 13.0,
         "My": 22.0,
         "Mz": 16.0,
         "subtract": false
+      },
+      {
+        "mx": 4.0,
+        "my": 10.0,
+        "mz": 2.0,
+        "Mx": 13.0,
+        "My": 22.0,
+        "Mz": 10.0,
+        "subtract": true
       }
     ],
     "name": "Basic Toilet",

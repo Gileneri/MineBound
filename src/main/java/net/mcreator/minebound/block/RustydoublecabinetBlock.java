@@ -65,10 +65,10 @@ public class RustydoublecabinetBlock extends Block implements SimpleWaterloggedB
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, 0, 31, 31, 12);
-			case NORTH -> box(-15, 0, 4, 16, 31, 16);
-			case EAST -> box(0, 0, -15, 12, 31, 16);
-			case WEST -> box(4, 0, 0, 16, 31, 31);
+			default -> Shapes.or(box(0, 0, 0, 31, 31, 9), box(2, 0, 9, 29, 9, 11));
+			case NORTH -> Shapes.or(box(-15, 0, 7, 16, 31, 16), box(-13, 0, 5, 14, 9, 7));
+			case EAST -> Shapes.or(box(0, 0, -15, 9, 31, 16), box(9, 0, -13, 11, 9, 14));
+			case WEST -> Shapes.or(box(7, 0, 0, 16, 31, 31), box(5, 0, 2, 7, 9, 29));
 		};
 	}
 
